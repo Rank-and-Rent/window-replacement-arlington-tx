@@ -1,0 +1,39 @@
+'use client'
+
+import { motion } from 'framer-motion'
+import Link from 'next/link'
+import styles from './cta-banner.module.css'
+
+export default function CtaBanner() {
+  return (
+    <section className={styles.section}>
+      <div className={styles.container}>
+        <motion.div
+          className={styles.content}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
+          <h2 className={styles.title}>
+            Ready to Transform Your Arlington Home?
+          </h2>
+          <p className={styles.description}>
+            Get a free, no-obligation estimate from Arlington&apos;s window replacement experts. 
+            We&apos;ll help you choose the perfect windows for your home and budget.
+          </p>
+          <div className={styles.actions}>
+            <Link href="#contact" className={styles.primaryBtn}>
+              Schedule Free Consultation
+            </Link>
+            <a href="tel:214-444-4444" className={styles.secondaryBtn}>
+              Call 214-444-4444
+            </a>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  )
+}
+
+
