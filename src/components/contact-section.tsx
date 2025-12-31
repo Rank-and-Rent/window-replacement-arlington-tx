@@ -38,7 +38,7 @@ export default function ContactSection() {
                 </a>
               </div>
               <div className={styles.contactItem}>
-                <span className={styles.contactLabel}>Visit Our Showroom</span>
+                <span className={styles.contactLabel}>Address</span>
                 <address className={styles.contactValue}>
                   1250 E Copeland Rd #530<br />
                   Arlington, TX 76011
