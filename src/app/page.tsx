@@ -1,6 +1,7 @@
 import Header from '@/components/header'
 import Hero from '@/components/hero'
 import WindowsSection from '@/components/windows-section'
+import DoorsSection from '@/components/doors-section'
 import BrandsSection from '@/components/brands-section'
 import FeaturesSection from '@/components/features-section'
 import ProcessSection from '@/components/process-section'
@@ -17,6 +18,7 @@ export default function HomePage() {
       <main>
         <Hero />
         <WindowsSection />
+        <DoorsSection />
         <BrandsSection />
         <FeaturesSection />
         <ProcessSection />
@@ -38,7 +40,7 @@ export default function HomePage() {
             image: 'https://homewindowreplacementarlington.com/og-image.jpg',
             '@id': 'https://homewindowreplacementarlington.com',
             url: 'https://homewindowreplacementarlington.com',
-            telephone: '214-444-4444',
+            telephone: '817-592-8870',
             address: {
               '@type': 'PostalAddress',
               streetAddress: '1250 E Copeland Rd #530',

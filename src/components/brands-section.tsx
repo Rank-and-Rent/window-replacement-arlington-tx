@@ -1,14 +1,15 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import styles from './brands-section.module.css'
 
 const brands = [
   {
     name: 'Andersen',
-    slug: 'andersen',
+    slug: 'andersen-windows-doors',
     tagline: 'Over 120 Years of Excellence',
-    description: 'America\'s most recognized window brand, Andersen windows combine exceptional craftsmanship with innovative technology. Their 400 Series, E-Series, and A-Series collections offer unmatched beauty, performance, and energy efficiency for Arlington homeowners who demand the very best.',
+    description: 'America\'s most recognized window and door brand, Andersen combines exceptional craftsmanship with innovative technology. Their 400 Series, E-Series, and A-Series collections offer unmatched beauty, performance, and energy efficiency for Arlington homeowners who demand the very best.',
     highlights: [
       'Industry-leading Energy Star ratings',
       'Exclusive Fibrex composite material',
@@ -18,9 +19,9 @@ const brands = [
   },
   {
     name: 'Pella',
-    slug: 'pella',
+    slug: 'pella-windows-doors',
     tagline: 'Innovation Meets Craftsmanship',
-    description: 'Pella\'s commitment to quality and innovation has made them a favorite among Texas homeowners for nearly a century. From the budget-friendly 250 Series to the premium Reserve line, Pella offers windows that enhance any Arlington home\'s beauty and performance.',
+    description: 'Pella\'s commitment to quality and innovation has made them a favorite among Texas homeowners for nearly a century. From the budget-friendly 250 Series to the premium Reserve line, Pella offers windows and doors that enhance any Arlington home\'s beauty and performance.',
     highlights: [
       'Patented between-the-glass blinds',
       'Superior noise reduction',
@@ -30,14 +31,26 @@ const brands = [
   },
   {
     name: 'JELD-WEN',
-    slug: 'jeld-wen',
+    slug: 'jeld-wen-windows-doors',
     tagline: 'Quality at Every Price Point',
-    description: 'JELD-WEN delivers exceptional value without compromising on quality or style. Their diverse product lines—from the premium Siteline to the accessible Builders line—ensure every Arlington homeowner can find windows that fit their budget and aesthetic preferences.',
+    description: 'JELD-WEN delivers exceptional value without compromising on quality or style. Their diverse product lines—from the premium Siteline to the accessible Builders line—ensure every Arlington homeowner can find windows and doors that fit their budget and aesthetic preferences.',
     highlights: [
       'AuraLast wood protection',
       'ImpactGard impact-resistant options',
       'Wide range of price points',
       'Texas-weather durability',
+    ],
+  },
+  {
+    name: 'Marvin',
+    slug: 'marvin-windows-doors',
+    tagline: 'Premium Custom Craftsmanship',
+    description: 'Marvin Windows and Doors is synonymous with luxury and custom quality. Family-owned since 1912, Marvin specializes in made-to-order windows and doors that combine timeless design with cutting-edge performance, delivering exceptional value for Arlington homeowners seeking distinction.',
+    highlights: [
+      'Unparalleled customization options',
+      'Premium materials and finishes',
+      'Industry-leading warranties',
+      'Architectural excellence',
     ],
   },
 ]
@@ -54,12 +67,12 @@ export default function BrandsSection() {
           transition={{ duration: 0.6 }}
         >
           <span className={styles.label}>Authorized Dealer</span>
-          <h2 className={styles.title}>America&apos;s Most Trusted Window Brands</h2>
+          <h2 className={styles.title}>America&apos;s Most Trusted Window & Door Brands</h2>
           <p className={styles.subtitle}>
-            As an authorized dealer for Andersen, Pella, and JELD-WEN, we bring Arlington 
-            homeowners exclusive access to the finest windows on the market. Each brand 
+            As an authorized dealer for Andersen, Pella, JELD-WEN, and Marvin, we bring Arlington 
+            homeowners exclusive access to the finest windows and doors on the market. Each brand 
             offers unique advantages, and our experts will help you choose the perfect 
-            windows for your home, style, and budget.
+            windows and doors for your home, style, and budget.
           </p>
         </motion.div>
 
@@ -86,9 +99,9 @@ export default function BrandsSection() {
                   </li>
                 ))}
               </ul>
-              <a href={`#contact`} className={styles.brandCta}>
-                Explore {brand.name} Windows
-              </a>
+              <Link href={`/brands/${brand.slug}`} className={styles.brandCta}>
+                Explore {brand.name}
+              </Link>
             </motion.article>
           ))}
         </div>

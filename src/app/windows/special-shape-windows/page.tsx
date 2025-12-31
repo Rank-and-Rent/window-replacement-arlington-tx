@@ -8,7 +8,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Special Shape Window Replacement Arlington TX | Custom Design',
-  description: 'Custom special shape windows in Arlington, TX. Circles, arches, triangles, octagons & more. Architectural accents. Andersen, Pella & JELD-WEN. Call 214-444-4444.',
+  description: 'Custom special shape windows in Arlington, TX. Circles, arches, triangles, octagons & more. Architectural accents. Andersen, Pella & JELD-WEN. Call 817-592-8870.',
   keywords: 'special shape windows Arlington TX, custom windows, arched windows, round windows, architectural windows Texas',
 }
 

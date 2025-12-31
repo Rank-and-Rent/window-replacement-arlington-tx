@@ -8,7 +8,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Bay & Bow Window Replacement Arlington TX | Architectural Elegance',
-  description: 'Custom bay and bow windows in Arlington, TX. Add space and drama to your home. Andersen, Pella & JELD-WEN. Expert installation. Call 214-444-4444.',
+  description: 'Custom bay and bow windows in Arlington, TX. Add space and drama to your home. Andersen, Pella & JELD-WEN. Expert installation. Call 817-592-8870.',
   keywords: 'bay windows Arlington TX, bow windows, bay window installation, architectural windows Texas',
 }
 

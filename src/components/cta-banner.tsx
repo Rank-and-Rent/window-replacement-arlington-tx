@@ -26,8 +26,8 @@ export default function CtaBanner() {
             <Link href="#contact" className={styles.primaryBtn}>
               Schedule Free Consultation
             </Link>
-            <a href="tel:214-444-4444" className={styles.secondaryBtn}>
-              Call 214-444-4444
+            <a href="tel:817-592-8870" className={styles.secondaryBtn}>
+              Call 817-592-8870
             </a>
           </div>
         </motion.div>

@@ -78,6 +78,19 @@
   line-height: 1.6;
 }
 
+.hours {
+  font-size: 0.9375rem;
+  color: var(--color-gray-400);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.mapContainer {
+  margin-top: 1rem;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
 .linksColumn {
   /* Column styles */
 }
@@ -116,29 +129,26 @@
 
 .bottomSection {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.5rem 0;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 0 1.5rem;
+}
+
+.disclosure {
+  font-size: 0.875rem;
+  color: var(--color-gray-400);
+  line-height: 1.6;
+  text-align: center;
+  margin: 0 0 1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 4px;
 }
 
 .copyright {
   font-size: 0.8125rem;
   color: var(--color-gray-500);
-}
-
-.legalLinks {
-  display: flex;
-  gap: 2rem;
-}
-
-.legalLink {
-  font-size: 0.8125rem;
-  color: var(--color-gray-500);
-  transition: color var(--transition-fast);
-}
-
-.legalLink:hover {
-  color: var(--color-gray-300);
+  text-align: center;
 }
 
 @media (max-width: 1024px) {

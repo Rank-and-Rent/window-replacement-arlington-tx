@@ -21,8 +21,8 @@ export default function LocationHero({ city, state, image }: LocationHeroProps) 
         <h1 className={styles.title}>Window Replacement in {city}, {state}</h1>
         <p className={styles.subtitle}>Expert Window Installation Services Throughout the {city} Area</p>
         <div className={styles.cta}>
-          <a href="tel:214-444-4444" className={styles.phoneButton}>
-            📞 214-444-4444
+          <a href="tel:817-592-8870" className={styles.phoneButton}>
+            📞 817-592-8870
           </a>
           <a href="#contact" className={styles.contactButton}>
             Free Estimate

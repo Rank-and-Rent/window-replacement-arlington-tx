@@ -8,7 +8,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Picture Window Replacement Arlington TX | Stunning Views',
-  description: 'Large picture windows in Arlington, TX. Fixed glass for maximum light and unobstructed views. Energy efficient. Andersen, Pella & JELD-WEN. Call 214-444-4444.',
+  description: 'Large picture windows in Arlington, TX. Fixed glass for maximum light and unobstructed views. Energy efficient. Andersen, Pella & JELD-WEN. Call 817-592-8870.',
   keywords: 'picture windows Arlington TX, fixed windows, large windows, view windows Texas, energy efficient glass',
 }
 

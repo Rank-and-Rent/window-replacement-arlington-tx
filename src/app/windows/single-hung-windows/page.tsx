@@ -8,7 +8,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Single-Hung Window Replacement Arlington TX | Affordable Quality',
-  description: 'Budget-friendly single-hung windows in Arlington, TX. Classic reliability with modern efficiency. Andersen, Pella & JELD-WEN options. Free estimate: 214-444-4444.',
+  description: 'Budget-friendly single-hung windows in Arlington, TX. Classic reliability with modern efficiency. Andersen, Pella & JELD-WEN options. Free estimate: 817-592-8870.',
   keywords: 'single hung windows Arlington, affordable replacement windows, window installation Texas, energy efficient windows',
 }
 
@@ -27,7 +27,7 @@ export default function SingleHungWindowsPage() {
       },
       {
         heading: 'Cost-Effectiveness Without Compromise',
-        content: 'Single-hung windows typically cost 10-20% less than comparable double-hung models, but this price difference doesn\'t indicate inferior quality. You\'re simply paying for the functionality you actually use. The savings can be substantial when replacing multiple windows throughout your Arlington home. Many homeowners channel these savings into upgrades like Low-E glass coatings, argon gas fills, or premium exterior colors—enhancements that deliver tangible benefits in energy efficiency and curb appeal. The reduced complexity also means less that can malfunction over time, potentially saving on future repair costs.',
+        content: 'Single-hung windows typically cost 10-20% less than comparable double-hung models, but this price difference doesn\'t indicate inferior quality. You\'re simply paying for the functionality you actually use. The savings can be substantial when replacing multiple windows throughout your Arlington home. Many homeowners channel these savings into upgrades like Low-E glass coatings, argon gas fills, or premium exterior colors—enhancements that deliver tangible benefits in energy efficiency and curb appeal. The reduced complexity also means less that can malfunction over time, potentially reducing future maintenance needs.',
       },
       {
         heading: 'Ideal Applications in Arlington Homes',

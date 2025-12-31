@@ -8,7 +8,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Sliding Window Replacement Arlington TX | Modern Efficiency',
-  description: 'Contemporary sliding windows in Arlington, TX. Space-saving design with smooth operation. Andersen, Pella & JELD-WEN. Free consultation: 214-444-4444.',
+  description: 'Contemporary sliding windows in Arlington, TX. Space-saving design with smooth operation. Andersen, Pella & JELD-WEN. Free consultation: 817-592-8870.',
   keywords: 'sliding windows Arlington TX, gliding windows, modern windows, space saving windows Texas',
 }
 
@@ -71,7 +71,7 @@ export default function SlidingWindowsPage() {
       },
       {
         name: 'JELD-WEN Aluminum Sliding',
-        description: 'For ultra-modern aesthetics, JELD-WEN\'s aluminum sliding windows feature remarkably slim profiles that maximize glass area. These windows are powder-coated for lasting beauty and corrosion resistance. The commercial-grade track system ensures smooth operation even with large, heavy sashes.',
+        description: 'For ultra-modern aesthetics, JELD-WEN\'s aluminum sliding windows feature remarkably slim profiles that maximize glass area. These windows are powder-coated for lasting beauty and corrosion resistance. The premium track system ensures smooth operation even with large, heavy sashes.',
       },
     ],
     

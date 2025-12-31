@@ -48,8 +48,8 @@ export default function LocationContent({ city, content }: LocationContentProps)
             Contact us today for a free, no-obligation consultation and estimate.
           </p>
           <div className={styles.ctaButtons}>
-            <a href="tel:214-444-4444" className={styles.phoneBtn}>
-              Call 214-444-4444
+            <a href="tel:817-592-8870" className={styles.phoneBtn}>
+              Call 817-592-8870
             </a>
             <a href="#contact" className={styles.contactBtn}>
               Request Estimate

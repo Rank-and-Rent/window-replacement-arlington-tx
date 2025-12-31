@@ -8,7 +8,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Double-Hung Window Replacement Arlington TX | Expert Installation',
-  description: 'Professional double-hung window installation in Arlington, TX. Tilt-in cleaning, superior ventilation, and classic style. Andersen, Pella & JELD-WEN. Call 214-444-4444 for free estimate.',
+  description: 'Professional double-hung window installation in Arlington, TX. Tilt-in cleaning, superior ventilation, and classic style. Andersen, Pella & JELD-WEN. Call 817-592-8870 for free estimate.',
   keywords: 'double hung windows Arlington TX, replacement windows, tilt-in windows, window installation Arlington',
 }
 

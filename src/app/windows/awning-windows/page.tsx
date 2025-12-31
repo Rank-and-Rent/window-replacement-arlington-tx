@@ -8,7 +8,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Awning Window Replacement Arlington TX | Rain-Proof Ventilation',
-  description: 'Awning windows in Arlington, TX. Top-hinged design for ventilation during rain. Perfect for bathrooms. Andersen, Pella & JELD-WEN. Free estimate: 214-444-4444.',
+  description: 'Awning windows in Arlington, TX. Top-hinged design for ventilation during rain. Perfect for bathrooms. Andersen, Pella & JELD-WEN. Free estimate: 817-592-8870.',
   keywords: 'awning windows Arlington TX, rain windows, bathroom windows, ventilation windows Texas',
 }
 

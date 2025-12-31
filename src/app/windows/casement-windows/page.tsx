@@ -8,7 +8,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Casement Window Replacement Arlington TX | Maximum Ventilation',
-  description: 'Premium casement windows in Arlington, TX. Crank-out design for unobstructed views and superior airflow. Andersen, Pella & JELD-WEN. Call 214-444-4444.',
+  description: 'Premium casement windows in Arlington, TX. Crank-out design for unobstructed views and superior airflow. Andersen, Pella & JELD-WEN. Call 817-592-8870.',
   keywords: 'casement windows Arlington TX, crank out windows, replacement windows, modern windows Arlington',
 }
 

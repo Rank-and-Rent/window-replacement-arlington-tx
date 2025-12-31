@@ -1,42 +1,12 @@
 import Link from 'next/link'
+import { servicesData, locationsData, brandsData } from '@/data'
 import styles from './footer.module.css'
-
-const windowTypes = [
-  { name: 'Double-Hung Windows', slug: '/windows/double-hung-windows' },
-  { name: 'Single-Hung Windows', slug: '/windows/single-hung-windows' },
-  { name: 'Casement Windows', slug: '/windows/casement-windows' },
-  { name: 'Awning Windows', slug: '/windows/awning-windows' },
-  { name: 'Sliding Windows', slug: '/windows/sliding-windows' },
-  { name: 'Picture Windows', slug: '/windows/picture-windows' },
-  { name: 'Bay & Bow Windows', slug: '/windows/bay-bow-windows' },
-  { name: 'Special Shape Windows', slug: '/windows/special-shape-windows' },
-]
-
-const brands = [
-  { name: 'Andersen Windows', slug: '#brands' },
-  { name: 'Pella Windows', slug: '#brands' },
-  { name: 'JELD-WEN Windows', slug: '#brands' },
-]
-
-const locations = [
-  { name: 'Fort Worth', slug: '/locations/fort-worth' },
-  { name: 'Dallas', slug: '/locations/dallas' },
-  { name: 'Grand Prairie', slug: '/locations/grand-prairie' },
-  { name: 'Irving', slug: '/locations/irving' },
-  { name: 'Mansfield', slug: '/locations/mansfield' },
-  { name: 'Euless', slug: '/locations/euless' },
-  { name: 'Bedford', slug: '/locations/bedford' },
-  { name: 'Hurst', slug: '/locations/hurst' },
-  { name: 'Grapevine', slug: '/locations/grapevine' },
-  { name: 'Carrollton', slug: '/locations/carrollton' },
-  { name: 'Plano', slug: '/locations/plano' },
-  { name: 'Richardson', slug: '/locations/richardson' },
-  { name: 'Lewisville', slug: '/locations/lewisville' },
-  { name: 'Denton', slug: '/locations/denton' },
-]
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
+  
+  const windowServices = servicesData.filter(s => s.category === 'Windows')
+  const doorServices = servicesData.filter(s => s.category === 'Doors')
 
   return (
     <footer className={styles.footer}>
@@ -48,28 +18,32 @@ export default function Footer() {
               <span className={styles.logoSub}>of Arlington</span>
             </Link>
             <p className={styles.brandDescription}>
-              Arlington&apos;s trusted window replacement experts. Authorized dealer for 
-              Andersen, Pella, and JELD-WEN windows. Quality installations backed by 
+              Arlington&apos;s trusted window and door replacement experts. Authorized dealer for 
+              Andersen, Pella, JELD-WEN, and Marvin. Quality installations backed by 
               industry-leading warranties.
             </p>
             <div className={styles.contactBlock}>
-              <a href="tel:214-444-4444" className={styles.phone}>
-                214-444-4444
+              <a href="tel:817-592-8870" className={styles.phone}>
+                817-592-8870
               </a>
               <address className={styles.address}>
                 1250 E Copeland Rd #530<br />
                 Arlington, TX 76011
               </address>
+              <p className={styles.hours}>
+                Open 24/7<br />
+                Available for Emergency Service
+              </p>
             </div>
           </div>
 
           <div className={styles.linksColumn}>
-            <h4 className={styles.columnTitle}>Window Styles</h4>
+            <h4 className={styles.columnTitle}>Window Services</h4>
             <ul className={styles.linkList}>
-              {windowTypes.slice(0, 6).map((type) => (
-                <li key={type.slug}>
-                  <Link href={type.slug} className={styles.link}>
-                    {type.name}
+              {windowServices.map((service) => (
+                <li key={service.slug}>
+                  <Link href={service.route} className={styles.link}>
+                    {service.name}
                   </Link>
                 </li>
               ))}
@@ -77,23 +51,24 @@ export default function Footer() {
           </div>
 
           <div className={styles.linksColumn}>
-            <ul className={styles.linkList} style={{ marginTop: 0 }}>
-              {windowTypes.slice(6).map((type) => (
-                <li key={type.slug}>
-                  <Link href={type.slug} className={styles.link}>
-                    {type.name}
+            <h4 className={styles.columnTitle}>Door Services</h4>
+            <ul className={styles.linkList}>
+              {doorServices.map((service) => (
+                <li key={service.slug}>
+                  <Link href={service.route} className={styles.link}>
+                    {service.name}
                   </Link>
                 </li>
               ))}
             </ul>
 
             <h4 className={styles.columnTitle} style={{ marginTop: '2rem' }}>
-              Our Brands
+              Brands
             </h4>
             <ul className={styles.linkList}>
-              {brands.map((brand) => (
+              {brandsData.map((brand) => (
                 <li key={brand.slug}>
-                  <Link href={brand.slug} className={styles.link}>
+                  <Link href={brand.route} className={styles.link}>
                     {brand.name}
                   </Link>
                 </li>
@@ -104,9 +79,9 @@ export default function Footer() {
           <div className={styles.linksColumn}>
             <h4 className={styles.columnTitle}>Service Areas</h4>
             <ul className={styles.linkList}>
-              {locations.slice(0, 7).map((location) => (
+              {locationsData.map((location) => (
                 <li key={location.slug}>
-                  <Link href={location.slug} className={styles.link}>
+                  <Link href={location.route} className={styles.link}>
                     {location.name}
                   </Link>
                 </li>
@@ -115,50 +90,62 @@ export default function Footer() {
           </div>
 
           <div className={styles.linksColumn}>
-            <ul className={styles.linkList} style={{ marginTop: 0 }}>
-              {locations.slice(7).map((location) => (
-                <li key={location.slug}>
-                  <Link href={location.slug} className={styles.link}>
-                    {location.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-
-            <h4 className={styles.columnTitle} style={{ marginTop: '2rem' }}>
-              Quick Links
-            </h4>
+            <h4 className={styles.columnTitle}>Quick Links</h4>
             <ul className={styles.linkList}>
               <li>
-                <Link href="#about" className={styles.link}>
+                <Link href="/about" className={styles.link}>
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className={styles.link}>
+                <Link href="/contact" className={styles.link}>
                   Contact
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className={styles.link}>
-                  Free Estimate
+                <Link href="/privacy" className={styles.link}>
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/terms" className={styles.link}>
+                  Terms of Service
+                </Link>
+              </li>
+              <li>
+                <Link href="/sitemap.xml" className={styles.link}>
+                  Sitemap
                 </Link>
               </li>
             </ul>
+
+            <h4 className={styles.columnTitle} style={{ marginTop: '2rem' }}>
+              Find Us
+            </h4>
+            <div className={styles.mapContainer}>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.123456789012!2d-97.10812024999999!3d32.735687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e62d2e40898d3%3A0xb5ef6ac1fa05351!2s1250%20E%20Copeland%20Rd%20%23530%2C%20Arlington%2C%20TX%2076011!5e0!3m2!1sen!2sus!4v1234567890123"
+                width="100%"
+                height="200"
+                style={{ border: 0, borderRadius: '4px' }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Home Window Replacement Service of Arlington location map"
+              ></iframe>
+            </div>
           </div>
         </div>
 
         <div className={styles.bottomSection}>
+          <p className={styles.disclosure}>
+            Disclosure: This site routes inquiries to our chosen fulfillment partner for window and door contractor matching and project coordination support.
+          </p>
           <p className={styles.copyright}>
             &copy; {currentYear} Home Window Replacement Service of Arlington. All rights reserved.
           </p>
-          <div className={styles.legalLinks}>
-            <Link href="#" className={styles.legalLink}>Privacy Policy</Link>
-            <Link href="#" className={styles.legalLink}>Terms of Service</Link>
-          </div>
         </div>
       </div>
     </footer>
   )
 }
-

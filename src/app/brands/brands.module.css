@@ -1,0 +1,132 @@
+.hero {
+  background: linear-gradient(135deg, #1a365d 0%, #0f172a 100%);
+  color: white;
+  padding: 5rem 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  color: #cbd5e1;
+  max-width: 800px;
+}
+
+.brandsSection {
+  padding: 5rem 1rem;
+  background: white;
+}
+
+.brandsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .brandsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.brandCard {
+  background: #f8fafc;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: block;
+}
+
+.brandCard:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  border-color: #2563eb;
+}
+
+.brandName {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a365d;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+}
+
+.brandCard:hover .brandName {
+  color: #2563eb;
+}
+
+.brandDescription {
+  color: #64748b;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.learnMore {
+  display: inline-block;
+  background: #2563eb;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+  transition: background 0.3s ease;
+}
+
+.brandCard:hover .learnMore {
+  background: #1d4ed8;
+}
+
+.whySection {
+  padding: 5rem 1rem;
+  background: #f8fafc;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a365d;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.benefitsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .benefitsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.benefitCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.benefitCard h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1a365d;
+  margin-bottom: 1rem;
+}
+
+.benefitCard p {
+  color: #64748b;
+  line-height: 1.6;
+}
