@@ -1,6 +1,7 @@
 .section {
   background: var(--color-off-white);
   padding: var(--section-padding) 0;
+  padding-top: calc(80px + var(--section-padding)); /* Account for fixed header */
   min-height: 60vh;
 }
 

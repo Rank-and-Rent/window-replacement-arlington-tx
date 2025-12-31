@@ -2,6 +2,7 @@
   background: linear-gradient(135deg, #1a365d 0%, #0f172a 100%);
   color: white;
   padding: 5rem 1rem;
+  padding-top: calc(80px + 5rem); /* Account for fixed header */
 }
 
 .container {
