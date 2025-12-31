@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function AwningWindowsPage() {
   const content = {
-    title: 'Awning Windows',
+    title: 'Awning Window Replacement in Arlington, TX',
     subtitle: 'Ventilate Your Home Rain or Shine',
     heroImage: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=2070',
     

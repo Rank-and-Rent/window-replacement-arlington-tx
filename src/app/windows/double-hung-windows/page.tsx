@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function DoubleHungWindowsPage() {
   const content = {
-    title: 'Double-Hung Windows',
+    title: 'Double-Hung Window Replacement in Arlington, TX',
     subtitle: 'Classic Design Meets Modern Performance',
     heroImage: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=2070',
     

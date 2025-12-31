@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function CustomDoorPage() {
   const content = {
-    title: 'Custom Door Installation',
+    title: 'Custom Door Replacement in Arlington, TX',
     subtitle: 'One-of-a-Kind Designs Built to Your Vision',
     heroImage: 'https://images.unsplash.com/photo-1600607687644-c7171b42498b?q=80&w=2070',
     

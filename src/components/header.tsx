@@ -76,7 +76,6 @@ export default function Header() {
               aria-haspopup="true"
             >
               Windows
-              <span className={styles.dropdownArrow}>▼</span>
             </button>
             {activeDropdown === 'windows' && (
               <div 
@@ -118,7 +117,6 @@ export default function Header() {
               aria-haspopup="true"
             >
               Doors
-              <span className={styles.dropdownArrow}>▼</span>
             </button>
             {activeDropdown === 'doors' && (
               <div 
@@ -160,7 +158,6 @@ export default function Header() {
               aria-haspopup="true"
             >
               Locations
-              <span className={styles.dropdownArrow}>▼</span>
             </button>
             {activeDropdown === 'locations' && (
               <div 
@@ -202,7 +199,6 @@ export default function Header() {
               aria-haspopup="true"
             >
               Brands
-              <span className={styles.dropdownArrow}>▼</span>
             </button>
             {activeDropdown === 'brands' && (
               <div 

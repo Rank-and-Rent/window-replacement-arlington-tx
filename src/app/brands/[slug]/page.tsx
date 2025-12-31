@@ -148,7 +148,6 @@ export default function BrandPage({ params }: BrandPageProps) {
                 {relatedServices.map((service) => (
                   <Link key={service.slug} href={service.slug} className={styles.serviceCard}>
                     <h3>{service.name}</h3>
-                    <span className={styles.arrow}>→</span>
                   </Link>
                 ))}
               </div>

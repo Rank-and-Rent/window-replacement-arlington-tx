@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function StormDoorPage() {
   const content = {
-    title: 'Storm Door Installation',
+    title: 'Storm Door Replacement in Arlington, TX',
     subtitle: 'Protect Your Entry and Boost Energy Efficiency',
     heroImage: 'https://images.unsplash.com/photo-1600047509358-9dc75507daeb?q=80&w=2070',
     

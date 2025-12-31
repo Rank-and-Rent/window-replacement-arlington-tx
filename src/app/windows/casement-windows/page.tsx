@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function CasementWindowsPage() {
   const content = {
-    title: 'Casement Windows',
+    title: 'Casement Window Replacement in Arlington, TX',
     subtitle: 'Unmatched Ventilation and Contemporary Elegance',
     heroImage: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=2070',
     

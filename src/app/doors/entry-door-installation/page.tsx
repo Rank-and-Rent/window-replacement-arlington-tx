@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function EntryDoorPage() {
   const content = {
-    title: 'Entry Door Installation',
+    title: 'Entry Door Replacement in Arlington, TX',
     subtitle: 'Transform Your Home with a Beautiful, Secure Entry',
     heroImage: 'https://images.unsplash.com/photo-1617279318096-f098adb50af3?q=80&w=2070',
     

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function FrenchDoorPage() {
   const content = {
-    title: 'French Door Installation',
+    title: 'French Door Replacement in Arlington, TX',
     subtitle: 'Timeless Elegance with Modern Performance',
     heroImage: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=2070',
     

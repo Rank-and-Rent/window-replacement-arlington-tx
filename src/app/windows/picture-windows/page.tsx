@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function PictureWindowsPage() {
   const content = {
-    title: 'Picture Windows',
+    title: 'Picture Window Replacement in Arlington, TX',
     subtitle: 'Frame Your World with Uninterrupted Views',
     heroImage: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2070',
     

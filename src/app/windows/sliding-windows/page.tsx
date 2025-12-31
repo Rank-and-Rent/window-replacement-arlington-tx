@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function SlidingWindowsPage() {
   const content = {
-    title: 'Sliding Windows',
+    title: 'Sliding Window Replacement in Arlington, TX',
     subtitle: 'Sleek Horizontal Operation for Contemporary Living',
     heroImage: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2070',
     

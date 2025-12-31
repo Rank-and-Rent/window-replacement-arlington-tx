@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function SlidingGlassDoorPage() {
   const content = {
-    title: 'Sliding Glass Door Installation',
+    title: 'Sliding Glass Door Replacement in Arlington, TX',
     subtitle: 'Contemporary Design Meets Effortless Operation',
     heroImage: 'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?q=80&w=2070',
     

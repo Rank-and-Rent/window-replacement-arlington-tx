@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function SingleHungWindowsPage() {
   const content = {
-    title: 'Single-Hung Windows',
+    title: 'Single-Hung Window Replacement in Arlington, TX',
     subtitle: 'Time-Tested Reliability Meets Affordable Excellence',
     heroImage: 'https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?q=80&w=2070',
     

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function SpecialShapeWindowsPage() {
   const content = {
-    title: 'Special Shape Windows',
+    title: 'Special Shape Window Replacement in Arlington, TX',
     subtitle: 'Custom Geometry for Distinctive Architecture',
     heroImage: 'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=2070',
     

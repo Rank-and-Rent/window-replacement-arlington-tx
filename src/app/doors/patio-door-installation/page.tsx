@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function PatioDoorPage() {
   const content = {
-    title: 'Patio Door Installation',
+    title: 'Patio Door Replacement in Arlington, TX',
     subtitle: 'Connect Indoor and Outdoor Living Spaces',
     heroImage: 'https://images.unsplash.com/photo-1600210491369-e753d80a41f3?q=80&w=2070',
     

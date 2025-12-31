@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function BayBowWindowsPage() {
   const content = {
-    title: 'Bay & Bow Windows',
+    title: 'Bay & Bow Window Replacement in Arlington, TX',
     subtitle: 'Transform Walls into Architectural Statements',
     heroImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070',
     
