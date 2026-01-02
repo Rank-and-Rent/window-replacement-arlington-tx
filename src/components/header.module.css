@@ -29,26 +29,15 @@
 
 .logo {
   display: flex;
-  flex-direction: column;
-  line-height: 1.1;
+  align-items: center;
 }
 
-.logoMain {
-  font-family: var(--font-display);
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--color-white);
-  letter-spacing: 0.02em;
+.logoImage {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
 }
 
-.logoSub {
-  font-family: var(--font-body);
-  font-size: 0.75rem;
-  font-weight: 400;
-  color: var(--color-accent);
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-}
 
 .desktopNav {
   display: flex;
@@ -305,25 +294,15 @@
 
 .mobileLogo {
   display: flex;
-  flex-direction: column;
-  line-height: 1.1;
+  align-items: center;
 }
 
-.mobileLogoMain {
-  font-family: var(--font-display);
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: var(--color-white);
+.mobileLogoImage {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
 }
 
-.mobileLogoSub {
-  font-family: var(--font-body);
-  font-size: 0.65rem;
-  font-weight: 400;
-  color: var(--color-accent);
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-}
 
 .mobileClose {
   display: flex;

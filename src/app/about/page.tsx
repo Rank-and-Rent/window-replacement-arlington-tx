@@ -15,38 +15,38 @@ export default function AboutPage() {
           <div className={styles.container}>
             <div className={styles.header}>
               <span className={styles.label}>About Our Service</span>
-              <h1 className={styles.title}>Connecting Arlington Property Owners with Premium Window & Door Installation</h1>
+              <h1 className={styles.title}>Premium Window & Door Services in Arlington, Texas</h1>
               <p className={styles.subtitle}>
-                We specialize in matching homeowners with licensed and insured professionals for quality window and door installations throughout Arlington, TX.
+                We provide comprehensive window and door installation services throughout Arlington, TX, serving residential properties.
               </p>
             </div>
 
             <div className={styles.content}>
               <h2>Who We Are</h2>
               <p>
-                We specialize in connecting Arlington, TX property owners with licensed and insured window and door installation professionals. Our service focuses on helping you find the right contractor for your specific project needs, whether you are upgrading your home with energy-efficient windows, installing elegant entry doors, or replacing patio doors.
+                Window Replacements of Arlington provides comprehensive window and door installation services throughout Arlington, TX. We specialize in residential projects, offering energy-efficient windows, elegant entry doors, and patio door replacements that enhance both comfort and curb appeal.
               </p>
 
               <h2>How We Help</h2>
               <p>
-                When you contact us, we work to match your project with qualified installation professionals in the Arlington area. We understand that choosing windows and doors is a significant investment, and finding the right installer is crucial to ensuring quality work.
+                We provide comprehensive window and door installation services with attention to detail and quality craftsmanship. Our team understands that windows and doors are significant investments that enhance your home&apos;s energy efficiency, comfort, and value.
               </p>
 
               <h3>Our Process</h3>
               <ol>
                 <li><strong>Initial Consultation</strong> - Share your project details with us through our contact form or by phone</li>
-                <li><strong>Professional Matching</strong> - We connect you with licensed professionals who specialize in your type of project</li>
-                <li><strong>Project Coordination</strong> - Assistance with scheduling consultations and estimates</li>
-                <li><strong>Installation Support</strong> - Coordination throughout the installation process</li>
+                <li><strong>Project Planning</strong> - We assess your needs and develop a customized solution for your property</li>
+                <li><strong>Professional Installation</strong> - Expert installation with attention to detail and quality</li>
+                <li><strong>Quality Assurance</strong> - Comprehensive inspection and warranty coverage</li>
               </ol>
 
               <h2>Why Arlington Homeowners Choose Us</h2>
               <ul>
-                <li>Access to licensed and insured professionals</li>
                 <li>Knowledge of local building codes and permit requirements</li>
                 <li>Experience with Arlington&apos;s climate considerations</li>
-                <li>Connections with authorized dealers for premium brands like Andersen, Pella, JELD-WEN, and Marvin</li>
-                <li>Coordination support from consultation through project completion</li>
+                <li>Authorized dealers for premium brands like Andersen, Pella, JELD-WEN, and Marvin</li>
+                <li>Comprehensive service from consultation through project completion</li>
+                <li>Quality craftsmanship and attention to detail</li>
               </ul>
 
               <h2>Our Service Area</h2>
@@ -56,7 +56,7 @@ export default function AboutPage() {
 
               <h2>Educational Resources</h2>
               <p>
-                The information provided on this website is educational in nature and designed to help property owners make informed decisions about window and door installations. This content is not engineering advice, legal advice, or construction advice. We recommend consulting with licensed professionals for specific project guidance, verifying contractor licenses and insurance coverage, and obtaining multiple quotes before making decisions.
+                The information provided on this website is educational in nature and designed to help property owners make informed decisions about window and door installations. This content is not engineering advice, legal advice, or construction advice. We recommend consulting with qualified professionals for specific project guidance and obtaining multiple quotes before making decisions.
               </p>
 
               <div className={styles.ctaBox}>

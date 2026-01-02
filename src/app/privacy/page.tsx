@@ -29,7 +29,7 @@ export default function PrivacyPage() {
               <h2>How We Use Your Information</h2>
               <p>We use the information you provide to:</p>
               <ul>
-                <li>Connect you with licensed window and door installation professionals</li>
+                <li>Provide consultation and project planning services</li>
                 <li>Coordinate consultations and estimates</li>
                 <li>Communicate about your project</li>
                 <li>Improve our services</li>
@@ -38,7 +38,7 @@ export default function PrivacyPage() {
               <h2>Information Sharing</h2>
               <p>We may share your information with:</p>
               <ul>
-                <li>Licensed contractors for project matching and estimates</li>
+                <li>Qualified professionals for project consultation and estimates</li>
                 <li>Service providers who assist with our operations</li>
                 <li>As required by law or to protect our rights</li>
               </ul>

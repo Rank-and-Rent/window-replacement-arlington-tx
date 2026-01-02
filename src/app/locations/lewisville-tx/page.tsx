@@ -32,7 +32,7 @@ export default function LewisvillePage() {
         <LocationHero
           city="Lewisville"
           state="TX"
-          image="https://www.cityoflewisville.com/ImageRepository/Document?documentID=7821"
+          image="/locations/lewisville-tx-window-replacement.jpg"
         />
         <LocationContent city="Lewisville" content={content} />
         <WindowsSection />

@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import Link from 'next/link'
 import styles from './brands-section.module.css'
 
@@ -16,6 +17,7 @@ const brands = [
       'Limited lifetime warranty',
       'Customizable styles and finishes',
     ],
+    image: '/brands/andersen-windows-arlington-tx.png',
   },
   {
     name: 'Pella',
@@ -28,6 +30,7 @@ const brands = [
       'Exclusive wood protection system',
       'Architectural authenticity',
     ],
+    image: '/brands/pella-windows-arlington-tx.jpg',
   },
   {
     name: 'JELD-WEN',
@@ -40,6 +43,7 @@ const brands = [
       'Wide range of price points',
       'Texas-weather durability',
     ],
+    image: '/brands/jeld-wen-windows-arlington-tx.jpg',
   },
   {
     name: 'Marvin',
@@ -52,6 +56,7 @@ const brands = [
       'Industry-leading warranties',
       'Architectural excellence',
     ],
+    image: '/brands/marvin-windows-arlington-tx.avif',
   },
 ]
 
@@ -86,6 +91,15 @@ export default function BrandsSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.15 }}
             >
+              <div className={styles.brandImage}>
+                <Image
+                  src={brand.image}
+                  alt={`${brand.name} windows and doors`}
+                  width={300}
+                  height={200}
+                  style={{ width: '100%', height: 'auto' }}
+                />
+              </div>
               <div className={styles.brandHeader}>
                 <h3 className={styles.brandName}>{brand.name}</h3>
                 <span className={styles.brandTagline}>{brand.tagline}</span>

@@ -16,7 +16,7 @@ export default function StormDoorPage() {
   const content = {
     title: 'Storm Door Replacement in Arlington, TX',
     subtitle: 'Protect Your Entry and Boost Energy Efficiency',
-    heroImage: 'https://images.unsplash.com/photo-1600047509358-9dc75507daeb?q=80&w=2070',
+    heroImage: '/windows/double-hung-windows-arlington-tx.webp',
     
     intro: "Storm doors serve as the unsung heroes of home protection, adding a critical barrier against weather, insects, and wear while extending the life of your entry door. For Arlington homeowners, a quality storm door provides year-round benefits—protecting expensive entry doors from intense Texas sun, allowing fresh air ventilation without security concerns, and adding an extra layer of insulation that reduces energy costs. Modern storm doors have evolved far beyond the flimsy aluminum units of previous generations, now offering robust construction, beautiful designs, and features that complement premium entry doors.",
     

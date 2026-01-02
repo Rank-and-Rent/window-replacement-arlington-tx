@@ -16,7 +16,7 @@ export default function SlidingGlassDoorPage() {
   const content = {
     title: 'Sliding Glass Door Replacement in Arlington, TX',
     subtitle: 'Contemporary Design Meets Effortless Operation',
-    heroImage: 'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?q=80&w=2070',
+    heroImage: '/windows/double-hung-windows-arlington-tx.webp',
     
     intro: "Sliding glass doors represent the contemporary evolution of patio access, combining clean modern aesthetics with practical space-saving operation. Unlike traditional swinging doors that require clearance radius, sliding glass doors glide horizontally on precision tracks, making them perfect for Arlington homes with furniture near the patio opening or limited outdoor deck space. Modern sliding systems deliver whisper-quiet operation, exceptional energy efficiency, and expansive glass areas that blur the boundary between inside and outside.",
     

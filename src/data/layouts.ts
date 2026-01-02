@@ -60,7 +60,7 @@ export const serviceVariants: PageLayoutVariant[] = [
     key: "service-conversion",
     label: "Conversion-Focused Service Layout",
     description: "Layout optimized for conversions with multiple CTAs",
-    sections: ["hero", "description", "benefits", "cta-mid", "process", "inclusions", "faq", "testimonials", "cta"],
+    sections: ["hero", "description", "benefits", "cta-mid", "process", "inclusions", "faq", "cta"],
     features: {
       toc: false,
       stickyCta: true,
@@ -101,8 +101,8 @@ export const locationVariants: PageLayoutVariant[] = [
   {
     key: "location-modern",
     label: "Modern Location Layout",
-    description: "Contemporary layout with featured services and testimonials",
-    sections: ["hero", "description", "featured-services", "map", "faq", "testimonials", "cta"],
+    description: "Contemporary layout with featured services",
+    sections: ["hero", "description", "featured-services", "map", "faq", "cta"],
     features: {
       toc: false,
       stickyCta: true,
@@ -170,7 +170,7 @@ export const brandVariants: PageLayoutVariant[] = [
     key: "brand-showcase",
     label: "Brand Showcase Layout",
     description: "Premium layout highlighting brand features and products",
-    sections: ["hero", "brand-story", "products", "features", "benefits", "gallery", "faq", "cta"],
+    sections: ["hero", "brand-story", "products", "features", "benefits", "faq", "cta"],
     features: {
       toc: true,
       stickyCta: true,
@@ -196,7 +196,7 @@ export const brandVariants: PageLayoutVariant[] = [
     key: "brand-modern",
     label: "Modern Brand Layout",
     description: "Contemporary layout emphasizing innovation and quality",
-    sections: ["hero", "overview", "innovations", "products", "benefits", "testimonials", "faq", "cta"],
+    sections: ["hero", "overview", "innovations", "products", "benefits", "faq", "cta"],
     features: {
       toc: false,
       stickyCta: true,

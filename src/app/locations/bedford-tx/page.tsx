@@ -33,7 +33,7 @@ export default function BedfordPage() {
         <LocationHero
           city="Bedford"
           state="TX"
-          image="https://www.bedfordtx.gov/ImageRepository/Document?documentID=4523"
+          image="/locations/window-replacement-bedford-tx-1.jpg"
         />
         <LocationContent city="Bedford" content={content} />
         <WindowsSection />

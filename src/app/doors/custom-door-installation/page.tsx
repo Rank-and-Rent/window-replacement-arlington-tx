@@ -16,7 +16,7 @@ export default function CustomDoorPage() {
   const content = {
     title: 'Custom Door Replacement in Arlington, TX',
     subtitle: 'One-of-a-Kind Designs Built to Your Vision',
-    heroImage: 'https://images.unsplash.com/photo-1600607687644-c7171b42498b?q=80&w=2070',
+    heroImage: '/windows/double-hung-windows-arlington-tx.webp',
     
     intro: "Standard doors serve most homes well, but exceptional Arlington properties deserve extraordinary entrances that make unique architectural statements. Custom doors transform entries from functional necessities into works of art, perfectly tailored to your home's architecture, your personal style, and your specific requirements. Whether you envision a massive pivot door with hand-forged hardware, an arched entry with custom leaded glass, or a modern door with one-of-a-kind geometric patterns, custom door fabrication makes the impossible possible.",
     

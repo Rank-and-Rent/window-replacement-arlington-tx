@@ -21,6 +21,7 @@ export interface BrandItem {
   name: string;
   route: Slug;
   description: string;
+  image: string;
 }
 
 export interface ResourceLink {

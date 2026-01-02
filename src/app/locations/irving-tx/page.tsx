@@ -33,7 +33,7 @@ export default function IrvingPage() {
         <LocationHero
           city="Irving"
           state="TX"
-          image="https://www.irvingtexas.com/wp-content/uploads/2019/05/las-colinas-canal-walk-1.jpg"
+          image="/locations/irving-tx-window-replacement.jpg"
         />
         <LocationContent city="Irving" content={content} />
         <WindowsSection />

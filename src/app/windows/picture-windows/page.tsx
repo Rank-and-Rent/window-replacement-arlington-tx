@@ -16,7 +16,7 @@ export default function PictureWindowsPage() {
   const content = {
     title: 'Picture Window Replacement in Arlington, TX',
     subtitle: 'Frame Your World with Uninterrupted Views',
-    heroImage: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2070',
+    heroImage: '/windows/double-hung-windows-arlington-tx.webp',
     
     intro: "Picture windows do exactly what their name suggests—they frame views like artwork, transforming outdoor landscapes into living focal points within your Arlington home. As fixed, non-operable units, they eliminate the moving parts and weatherstripping complexities that can compromise other window types, resulting in maximum energy efficiency, expansive glass areas, and unobstructed views that connect your interior spaces with the beauty outside.",
     

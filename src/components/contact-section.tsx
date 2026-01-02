@@ -37,20 +37,6 @@ export default function ContactSection() {
                   817-592-8870
                 </a>
               </div>
-              <div className={styles.contactItem}>
-                <span className={styles.contactLabel}>Address</span>
-                <address className={styles.contactValue}>
-                  1250 E Copeland Rd #530<br />
-                  Arlington, TX 76011
-                </address>
-              </div>
-              <div className={styles.contactItem}>
-                <span className={styles.contactLabel}>Business Hours</span>
-                <span className={styles.contactValue}>
-                  Mon - Fri: 8am - 6pm<br />
-                  Sat: 9am - 4pm
-                </span>
-              </div>
             </div>
           </motion.div>
 

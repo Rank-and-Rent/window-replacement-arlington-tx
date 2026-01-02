@@ -16,7 +16,7 @@ export default function AwningWindowsPage() {
   const content = {
     title: 'Awning Window Replacement in Arlington, TX',
     subtitle: 'Ventilate Your Home Rain or Shine',
-    heroImage: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=2070',
+    heroImage: '/windows/double-hung-windows-arlington-tx.webp',
     
     intro: "Awning windows offer a unique advantage that sets them apart from every other operable window style: they provide ventilation even during rain. Hinged at the top and opening outward, the sash creates a protective awning that shields the opening from weather while allowing fresh air to flow freely. This practical design makes awning windows the intelligent choice for bathrooms, kitchens, and any Arlington space where year-round ventilation matters.",
     

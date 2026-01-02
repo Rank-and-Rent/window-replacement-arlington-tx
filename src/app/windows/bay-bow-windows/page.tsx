@@ -16,7 +16,7 @@ export default function BayBowWindowsPage() {
   const content = {
     title: 'Bay & Bow Window Replacement in Arlington, TX',
     subtitle: 'Transform Walls into Architectural Statements',
-    heroImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070',
+    heroImage: '/windows/double-hung-windows-arlington-tx.webp',
     
     intro: "Bay and bow windows don't simply occupy walls—they extend beyond them, creating alcoves that add both physical space and architectural drama to Arlington homes. These multi-window combinations project outward from your home's facade, providing panoramic views, abundant natural light, and distinctive curb appeal that makes your home stand out in any neighborhood. Beyond their aesthetic impact, they create functional spaces perfect for reading nooks, breakfast areas, or plant displays.",
     

@@ -32,7 +32,7 @@ export default function CarrolltonPage() {
         <LocationHero
           city="Carrollton"
           state="TX"
-          image="https://www.cityofcarrollton.com/ImageRepository/Document?documentID=12453"
+          image="/locations/carrollton-tx-window-replacement.jpg"
         />
         <LocationContent city="Carrollton" content={content} />
         <WindowsSection />

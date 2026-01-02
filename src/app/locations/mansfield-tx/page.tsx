@@ -33,7 +33,7 @@ export default function MansfieldPage() {
         <LocationHero
           city="Mansfield"
           state="TX"
-          image="https://www.mansfieldtexas.gov/ImageRepository/Document?documentId=11450"
+          image="/locations/window-replacement-mansfield-tx-1.jpg"
         />
         <LocationContent city="Mansfield" content={content} />
         <WindowsSection />

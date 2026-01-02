@@ -33,7 +33,7 @@ export default function GrapevinePage() {
         <LocationHero
           city="Grapevine"
           state="TX"
-          image="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_768,q_75,w_1024/v1/clients/grapevine/Main_Street_Grapevine_hero_3819d2e1-c5d5-4cf5-9b5e-ae2f0d2f8b15.jpg"
+          image="/locations/grapevine-tx-window-replacement.jpg"
         />
         <LocationContent city="Grapevine" content={content} />
         <WindowsSection />

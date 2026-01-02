@@ -16,7 +16,7 @@ export default function EntryDoorPage() {
   const content = {
     title: 'Entry Door Replacement in Arlington, TX',
     subtitle: 'Transform Your Home with a Beautiful, Secure Entry',
-    heroImage: 'https://images.unsplash.com/photo-1617279318096-f098adb50af3?q=80&w=2070',
+    heroImage: '/windows/double-hung-windows-arlington-tx.webp',
     
     intro: "Your entry door is more than just a functional barrier between your home and the outside world. It is the first impression visitors have of your Arlington home, a critical security feature protecting your family and belongings, and a significant factor in your home's energy efficiency. A premium entry door from Andersen, Pella, JELD-WEN, or Marvin combines all three elements—stunning aesthetics, robust security, and superior insulation—while requiring minimal maintenance for decades.",
     

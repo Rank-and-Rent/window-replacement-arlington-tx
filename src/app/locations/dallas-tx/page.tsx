@@ -32,7 +32,7 @@ export default function DallasPage() {
         <LocationHero
           city="Dallas"
           state="TX"
-          image="https://www.visitdallas.com/imager/s3_us-west-1_amazonaws_com/dallascitynews/production/Dallas-Skyline-Margaret-Hunt-Hill-Bridge_51fd2f39e39a6f861a0ba5bd5c66dadf.jpg"
+          image="/locations/dallas-tx-window-replacement.jpg"
         />
         <LocationContent city="Dallas" content={content} />
         <WindowsSection />

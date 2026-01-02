@@ -16,7 +16,7 @@ export default function PatioDoorPage() {
   const content = {
     title: 'Patio Door Replacement in Arlington, TX',
     subtitle: 'Connect Indoor and Outdoor Living Spaces',
-    heroImage: 'https://images.unsplash.com/photo-1600210491369-e753d80a41f3?q=80&w=2070',
+    heroImage: '/windows/double-hung-windows-arlington-tx.webp',
     
     intro: "Patio doors serve as the gateway between your Arlington home's interior and outdoor living spaces, fundamentally shaping how you experience your property. Whether you envision lazy weekend mornings with coffee on the patio, summer evening barbecues with seamless guest flow, or simply bathing your living room in natural Texas light, the right patio door transforms daily life. Modern patio doors from Andersen, Pella, JELD-WEN, and Marvin deliver expansive glass areas for unobstructed views, smooth operation that lasts for decades, and energy efficiency that keeps your home comfortable despite Arlington's temperature extremes.",
     

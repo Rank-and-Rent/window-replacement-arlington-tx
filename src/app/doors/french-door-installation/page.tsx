@@ -16,7 +16,7 @@ export default function FrenchDoorPage() {
   const content = {
     title: 'French Door Replacement in Arlington, TX',
     subtitle: 'Timeless Elegance with Modern Performance',
-    heroImage: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=2070',
+    heroImage: '/windows/double-hung-windows-arlington-tx.webp',
     
     intro: "French doors have graced elegant homes for centuries, and their enduring popularity testifies to their timeless appeal. These classic double doors with distinctive glass panels flood interiors with natural light while creating visual connections between spaces. Whether installed as exterior patio doors opening onto Arlington gardens or as interior doors separating living areas, French doors add architectural sophistication and traditional charm that never goes out of style.",
     

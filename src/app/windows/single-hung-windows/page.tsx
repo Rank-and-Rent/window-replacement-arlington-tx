@@ -16,7 +16,7 @@ export default function SingleHungWindowsPage() {
   const content = {
     title: 'Single-Hung Window Replacement in Arlington, TX',
     subtitle: 'Time-Tested Reliability Meets Affordable Excellence',
-    heroImage: 'https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?q=80&w=2070',
+    heroImage: '/windows/double-hung-windows-arlington-tx.webp',
     
     intro: "Single-hung windows embody the principle that simplicity often equals reliability. As one of the most economical window styles available, they deliver outstanding performance without unnecessary complexity. For Arlington homeowners seeking to maximize their renovation budget while still enjoying quality windows from premium manufacturers, single-hung windows represent an intelligent choice that won't compromise your home's appearance or comfort.",
     

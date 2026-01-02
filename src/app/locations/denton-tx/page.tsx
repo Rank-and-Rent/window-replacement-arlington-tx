@@ -32,7 +32,7 @@ export default function DentonPage() {
         <LocationHero
           city="Denton"
           state="TX"
-          image="https://www.cityofdenton.com/ImageRepository/Document?documentID=9234"
+          image="/locations/denton-tx-window-replacement.jpg"
         />
         <LocationContent city="Denton" content={content} />
         <WindowsSection />

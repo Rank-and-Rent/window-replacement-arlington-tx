@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import ContactSection from '@/components/contact-section'
@@ -34,6 +35,15 @@ export default function BrandsPage() {
                   href={`/brands/${brand.slug}`}
                   className={styles.brandCard}
                 >
+                  <div className={styles.brandImage}>
+                    <Image
+                      src={brand.image}
+                      alt={`${brand.name} windows and doors`}
+                      width={300}
+                      height={150}
+                      style={{ width: '100%', height: 'auto' }}
+                    />
+                  </div>
                   <h2 className={styles.brandName}>{brand.name}</h2>
                   <p className={styles.brandDescription}>{brand.description}</p>
                   <span className={styles.learnMore}>Learn More</span>

@@ -20,27 +20,27 @@ export default function TermsPage() {
             <div className={styles.content}>
               <h2>Service Description</h2>
               <p>
-                This website provides information about window and door installation services and connects property owners in Arlington, TX with licensed installation professionals. We coordinate inquiries and facilitate connections between property owners and contractors.
+                This website provides information about window and door installation services in Arlington, TX. We provide educational resources and project consultation to help property owners make informed decisions.
               </p>
 
               <h2>No Direct Installation Services</h2>
               <p>
-                We do not directly perform window or door installations. We route inquiries to our fulfillment partner for contractor matching and project coordination support. All installation work is performed by independent, licensed contractors.
+                We provide consultation and project planning services. Installation work is performed by qualified professionals with appropriate expertise and certifications.
               </p>
 
               <h2>User Responsibilities</h2>
               <p>When using our service, you agree to:</p>
               <ul>
                 <li>Provide accurate information about your project</li>
-                <li>Verify contractor licenses and insurance before hiring</li>
                 <li>Obtain multiple quotes for comparison</li>
                 <li>Check references and credentials independently</li>
+                <li>Verify all contractor qualifications and insurance</li>
                 <li>Ensure all necessary permits are obtained</li>
               </ul>
 
               <h2>Educational Content Only</h2>
               <p>
-                Information provided on this website is educational in nature. It is not engineering advice, legal advice, or construction advice. Consult with licensed professionals for specific project guidance.
+                Information provided on this website is educational in nature. It is not engineering advice, legal advice, or construction advice. Consult with qualified professionals for specific project guidance.
               </p>
 
               <h2>No Warranties or Guarantees</h2>

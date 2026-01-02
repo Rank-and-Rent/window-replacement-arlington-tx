@@ -63,8 +63,21 @@ export default function BrandPage({ params }: BrandPageProps) {
         {/* Hero Section */}
         <section className={styles.hero}>
           <div className={styles.container}>
-            <h1>{brand.name}</h1>
-            <p className={styles.heroSubtitle}>Premium {brand.name} Installation in Arlington, TX</p>
+            <div className={styles.heroContent}>
+              <div className={styles.heroText}>
+                <h1>{brand.name}</h1>
+                <p className={styles.heroSubtitle}>Premium {brand.name} Installation in Arlington, TX</p>
+              </div>
+              <div className={styles.heroImage}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={brand.image}
+                  alt={`${brand.name} windows and doors`}
+                  width="400"
+                  height="300"
+                />
+              </div>
+            </div>
           </div>
         </section>
 
@@ -83,25 +96,25 @@ export default function BrandPage({ params }: BrandPageProps) {
                 <div className={styles.categoryCard}>
                   <h3>Windows</h3>
                   <ul>
-                    <li>Double-Hung Windows</li>
-                    <li>Single-Hung Windows</li>
-                    <li>Casement Windows</li>
-                    <li>Awning Windows</li>
-                    <li>Sliding Windows</li>
-                    <li>Picture Windows</li>
-                    <li>Bay & Bow Windows</li>
-                    <li>Specialty Shapes</li>
+                    <li><Link href="/windows/double-hung-windows">Double-Hung Windows</Link></li>
+                    <li><Link href="/windows/single-hung-windows">Single-Hung Windows</Link></li>
+                    <li><Link href="/windows/casement-windows">Casement Windows</Link></li>
+                    <li><Link href="/windows/awning-windows">Awning Windows</Link></li>
+                    <li><Link href="/windows/sliding-windows">Sliding Windows</Link></li>
+                    <li><Link href="/windows/picture-windows">Picture Windows</Link></li>
+                    <li><Link href="/windows/bay-bow-windows">Bay & Bow Windows</Link></li>
+                    <li><Link href="/windows/special-shape-windows">Specialty Shapes</Link></li>
                   </ul>
                 </div>
                 <div className={styles.categoryCard}>
                   <h3>Doors</h3>
                   <ul>
-                    <li>Entry Doors</li>
-                    <li>Patio Doors</li>
-                    <li>French Doors</li>
-                    <li>Sliding Glass Doors</li>
-                    <li>Storm Doors</li>
-                    <li>Custom Doors</li>
+                    <li><Link href="/doors/entry-door-installation">Entry Doors</Link></li>
+                    <li><Link href="/doors/patio-door-installation">Patio Doors</Link></li>
+                    <li><Link href="/doors/french-door-installation">French Doors</Link></li>
+                    <li><Link href="/doors/sliding-glass-door-installation">Sliding Glass Doors</Link></li>
+                    <li><Link href="/doors/storm-door-installation">Storm Doors</Link></li>
+                    <li><Link href="/doors/custom-door-installation">Custom Doors</Link></li>
                   </ul>
                 </div>
               </div>

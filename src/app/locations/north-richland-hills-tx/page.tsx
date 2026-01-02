@@ -32,7 +32,7 @@ export default function NorthRichlandHillsPage() {
         <LocationHero
           city="North Richland Hills"
           state="TX"
-          image="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2073"
+          image="/locations/window-replacement-north-richland-hills-tx-1.jpg"
         />
         <LocationContent city="North Richland Hills" content={content} />
         <WindowsSection />

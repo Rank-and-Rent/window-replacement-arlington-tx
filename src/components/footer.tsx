@@ -124,7 +124,7 @@ export default function Footer() {
             </h4>
             <div className={styles.mapContainer}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.123456789012!2d-97.10812024999999!3d32.735687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e62d2e40898d3%3A0xb5ef6ac1fa05351!2s1250%20E%20Copeland%20Rd%20%23530%2C%20Arlington%2C%20TX%2076011!5e0!3m2!1sen!2sus!4v1234567890123"
+                src="https://www.google.com/maps?q=1250+E+Copeland+Rd+%23530,+Arlington,+TX+76011&output=embed"
                 width="100%"
                 height="200"
                 style={{ border: 0, borderRadius: '4px' }}

@@ -32,7 +32,7 @@ export default function RichardsonPage() {
         <LocationHero
           city="Richardson"
           state="TX"
-          image="https://www.cor.net/ImageRepository/Document?documentID=8932"
+          image="/locations/richardson-tx-window-replacement.jpg"
         />
         <LocationContent city="Richardson" content={content} />
         <WindowsSection />

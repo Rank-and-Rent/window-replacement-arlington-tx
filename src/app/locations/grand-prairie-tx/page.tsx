@@ -33,7 +33,7 @@ export default function GrandPrairiePage() {
         <LocationHero
           city="Grand Prairie"
           state="TX"
-          image="https://www.gptx.org/ImageRepository/Document?documentID=4822"
+          image="/locations/window-replacement-grand-prairie-tx-1.jpg"
         />
         <LocationContent city="Grand Prairie" content={content} />
         <WindowsSection />

@@ -16,7 +16,7 @@ export default function SpecialShapeWindowsPage() {
   const content = {
     title: 'Special Shape Window Replacement in Arlington, TX',
     subtitle: 'Custom Geometry for Distinctive Architecture',
-    heroImage: 'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=2070',
+    heroImage: '/windows/double-hung-windows-arlington-tx.webp',
     
     intro: "Special shape windows break free from rectangular conventions to create architectural statements that define spaces and establish your Arlington home's unique character. From dramatic arched transoms to geometric octagons, from delicate radius windows to commanding circular features, specialty windows transform ordinary openings into design focal points that capture attention and flood interiors with natural light in unexpected ways.",
     

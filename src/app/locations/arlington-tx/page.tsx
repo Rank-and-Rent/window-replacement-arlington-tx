@@ -33,7 +33,7 @@ export default function ArlingtonPage() {
         <LocationHero
           city="Arlington"
           state="TX"
-          image="https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=2070"
+          image="/locations/window-replacement-arlington-tx-1.jpg"
         />
         <LocationContent city="Arlington" content={content} />
         <WindowsSection />

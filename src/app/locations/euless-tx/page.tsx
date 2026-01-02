@@ -33,7 +33,7 @@ export default function EulessPage() {
         <LocationHero
           city="Euless"
           state="TX"
-          image="https://www.eulesstx.gov/ImageRepository/Document?documentID=8234"
+          image="/locations/window-replacement-euless-tx-1.jpg"
         />
         <LocationContent city="Euless" content={content} />
         <WindowsSection />

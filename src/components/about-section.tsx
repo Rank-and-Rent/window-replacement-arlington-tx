@@ -25,7 +25,7 @@ export default function AboutSection() {
           >
             <div className={styles.imageWrapper}>
               <Image
-                src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=800"
+                src="/windows/double-hung-windows-arlington-tx.webp"
                 alt="Professional window installation in Arlington home"
                 width={800}
                 height={1000}

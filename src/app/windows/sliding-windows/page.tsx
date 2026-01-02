@@ -16,7 +16,7 @@ export default function SlidingWindowsPage() {
   const content = {
     title: 'Sliding Window Replacement in Arlington, TX',
     subtitle: 'Sleek Horizontal Operation for Contemporary Living',
-    heroImage: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2070',
+    heroImage: '/windows/double-hung-windows-arlington-tx.webp',
     
     intro: "Sliding windows epitomize modern window design—clean horizontal lines, effortless operation, and space-efficient functionality that works beautifully in contemporary Arlington homes. Moving horizontally on tracks rather than swinging or lifting, they provide excellent ventilation without protruding into your living space or outdoor areas. Their wide proportions make them ideal for capturing expansive views while flooding interiors with natural light.",
     

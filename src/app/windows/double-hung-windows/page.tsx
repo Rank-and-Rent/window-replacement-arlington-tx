@@ -16,7 +16,7 @@ export default function DoubleHungWindowsPage() {
   const content = {
     title: 'Double-Hung Window Replacement in Arlington, TX',
     subtitle: 'Classic Design Meets Modern Performance',
-    heroImage: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=2070',
+    heroImage: '/windows/double-hung-windows-arlington-tx.webp',
     
     intro: "Double-hung windows represent the perfect marriage of traditional aesthetics and contemporary functionality. As Arlington's most popular window style, they grace both historic homes and modern new construction throughout the Dallas-Fort Worth metroplex. Their timeless appeal lies not just in their classic appearance, but in their remarkable versatility and ease of maintenance.",
     

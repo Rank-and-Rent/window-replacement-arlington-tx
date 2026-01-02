@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { servicesData, locationsData, brandsData } from '@/data'
 import styles from './header.module.css'
 
@@ -81,8 +82,13 @@ export default function Header() {
       <header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
         <div className={styles.container}>
           <Link href="/" className={styles.logo} onClick={closeMobileMenu}>
-            <span className={styles.logoMain}>Home Window Replacement</span>
-            <span className={styles.logoSub}>of Arlington</span>
+            <Image
+              src="/logo.png"
+              alt="Home Window Replacement Service of Arlington TX"
+              width={200}
+              height={60}
+              className={styles.logoImage}
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -306,8 +312,13 @@ export default function Header() {
       <nav className={`${styles.mobileMenu} ${isMobileMenuOpen ? styles.mobileMenuOpen : ''}`}>
         <div className={styles.mobileMenuHeader}>
           <Link href="/" className={styles.mobileLogo} onClick={closeMobileMenu}>
-            <span className={styles.mobileLogoMain}>Home Window Replacement</span>
-            <span className={styles.mobileLogoSub}>of Arlington</span>
+            <Image
+              src="/logo.png"
+              alt="Home Window Replacement Service of Arlington TX"
+              width={150}
+              height={40}
+              className={styles.mobileLogoImage}
+            />
           </Link>
           <button
             className={styles.mobileClose}

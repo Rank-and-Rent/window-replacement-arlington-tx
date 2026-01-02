@@ -33,7 +33,7 @@ export default function HurstPage() {
         <LocationHero
           city="Hurst"
           state="TX"
-          image="https://www.hursttx.gov/ImageRepository/Document?documentID=5432"
+          image="/locations/window-replacement-hurst-tx-1.jpg"
         />
         <LocationContent city="Hurst" content={content} />
         <WindowsSection />

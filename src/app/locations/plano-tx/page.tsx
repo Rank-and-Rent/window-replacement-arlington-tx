@@ -32,7 +32,7 @@ export default function PlanoPage() {
         <LocationHero
           city="Plano"
           state="TX"
-          image="https://www.plano.gov/ImageRepository/Document?documentID=27822"
+          image="/locations/plano-tx-window-replacement.jpg"
         />
         <LocationContent city="Plano" content={content} />
         <WindowsSection />

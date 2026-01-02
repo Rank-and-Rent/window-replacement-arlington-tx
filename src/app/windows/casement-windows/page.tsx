@@ -16,7 +16,7 @@ export default function CasementWindowsPage() {
   const content = {
     title: 'Casement Window Replacement in Arlington, TX',
     subtitle: 'Unmatched Ventilation and Contemporary Elegance',
-    heroImage: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=2070',
+    heroImage: '/windows/double-hung-windows-arlington-tx.webp',
     
     intro: "Casement windows represent the pinnacle of window ventilation technology. Hinged on one side and opening outward with a smooth crank mechanism, they capture and direct breezes into your Arlington home with unmatched efficiency. Their expansive, unobstructed glass areas flood interiors with natural light while providing stunning views of your landscape. For homeowners seeking windows that combine contemporary aesthetics with practical functionality, casement windows deliver on every front.",
     

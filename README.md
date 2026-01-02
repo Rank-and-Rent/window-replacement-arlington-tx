@@ -4,7 +4,7 @@ This site connects Arlington, TX property owners with professional window and do
 
 ## Data Taxonomy Rationale
 
-The services taxonomy covers 56+ window and door services organized into logical categories: Window Installation (10 types), Specialty Windows (5 types), Window Replacement (4 types), Energy Efficient options (4 types), Door Installation (9 types), Door Replacement (3 types), Commercial Services (4 types), Repair Services (8 types), and Specialty Services (9 types). This comprehensive structure ensures we can match property owners with contractors for any window or door need, from basic double-hung window replacement to custom pivot doors and commercial storefront systems.
+The services taxonomy covers 50+ window and door services organized into logical categories: Window Installation (10 types), Specialty Windows (5 types), Window Replacement (4 types), Energy Efficient options (4 types), Door Installation (9 types), Door Replacement (3 types), Repair Services (8 types), and Specialty Services (9 types). This comprehensive structure ensures we can match property owners with contractors for any window or door need, from basic double-hung window replacement to custom pivot doors and specialty residential installations.
 
 The locations taxonomy includes 35+ service areas within 30 miles of Arlington, TX, covering major nearby cities (Fort Worth, Grand Prairie, Mansfield, Irving), smaller suburbs (Euless, Bedford, Hurst, Grapevine, Colleyville, Southlake), and Arlington neighborhoods and districts. This geographic coverage ensures we can connect property owners throughout the Dallas-Fort Worth metroplex with qualified local contractors.
 

@@ -33,7 +33,7 @@ export default function FortWorthPage() {
         <LocationHero
           city="Fort Worth"
           state="TX"
-          image="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/4d/46/b2/fort-worth-skyline.jpg?w=1200&h=-1&s=1"
+          image="/locations/window-replacement-fort-worth-tx-1.jpg"
         />
         <LocationContent city="Fort Worth" content={content} />
         <WindowsSection />
