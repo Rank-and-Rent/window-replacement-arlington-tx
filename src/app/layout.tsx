@@ -71,7 +71,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Home Window Replacement Service of Arlington',
-    description: 'Premium window replacement in Arlington, TX. Andersen, Pella & JELD-WEN authorized dealer.',
+    description: 'Premium window replacement in Arlington, TX. Andersen, Pella & JELD-WEN windows.',
     images: ['/og-image.jpg'],
   },
   alternates: {

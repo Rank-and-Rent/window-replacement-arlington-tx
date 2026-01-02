@@ -64,6 +64,46 @@ export default function BrandsSection() {
   return (
     <section id="brands" className={styles.section}>
       <div className={styles.container}>
+        {/* Brand Logos Row */}
+        <motion.div
+          className={styles.logoRow}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
+          <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-12 max-w-6xl mx-auto">
+            <Link href="/brands/andersen-windows-doors" className="hover:opacity-80 transition-opacity">
+              <img
+                src="/andersen-windows-and-doors-logo.png"
+                alt="Andersen Windows & Doors"
+                className="h-16 lg:h-20 w-auto"
+              />
+            </Link>
+            <Link href="/brands/pella-windows-doors" className="hover:opacity-80 transition-opacity">
+              <img
+                src="/Pella-Corp-Windows-Doors-Logo-2x1-1.png"
+                alt="Pella Windows & Doors"
+                className="h-16 lg:h-20 w-auto"
+              />
+            </Link>
+            <Link href="/brands/jeld-wen-windows-doors" className="hover:opacity-80 transition-opacity">
+              <img
+                src="/jeld-wen-windows-and-doors-logo.png"
+                alt="Jeld-Wen Windows & Doors"
+                className="h-16 lg:h-20 w-auto"
+              />
+            </Link>
+            <Link href="/brands/marvin-windows-doors" className="hover:opacity-80 transition-opacity">
+              <img
+                src="/Marvin-LOCKUP-CMYK-898x301.png"
+                alt="Marvin Windows & Doors"
+                className="h-16 lg:h-20 w-auto"
+              />
+            </Link>
+          </div>
+        </motion.div>
+
         <motion.div
           className={styles.header}
           initial={{ opacity: 0, y: 30 }}
@@ -71,12 +111,12 @@ export default function BrandsSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <span className={styles.label}>Authorized Dealer</span>
+          <span className={styles.label}>Premium Partner</span>
           <h2 className={styles.title}>America&apos;s Most Trusted Window & Door Brands</h2>
           <p className={styles.subtitle}>
-            As an authorized dealer for Andersen, Pella, JELD-WEN, and Marvin, we bring Arlington 
-            homeowners exclusive access to the finest windows and doors on the market. Each brand 
-            offers unique advantages, and our experts will help you choose the perfect 
+            We bring Arlington homeowners exclusive access to Andersen, Pella, JELD-WEN, and Marvin--
+            the finest windows and doors on the market. Each brand
+            offers unique advantages, and our experts will help you choose the perfect
             windows and doors for your home, style, and budget.
           </p>
         </motion.div>

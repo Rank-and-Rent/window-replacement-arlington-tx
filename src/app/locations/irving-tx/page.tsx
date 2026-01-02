@@ -9,7 +9,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Window & Door Replacement Irving TX | Professional Window Services',
-  description: 'Expert window and door replacement in Irving, TX. Andersen, Pella, JELD-WEN, Marvin authorized dealer. Serving all Irving neighborhoods. Call 817-592-8870 for free estimate.',
+  description: 'Expert window and door replacement in Irving, TX. Andersen, Pella, JELD-WEN, Marvin windows. Serving all Irving neighborhoods. Call 817-592-8870 for free estimate.',
   keywords: 'window and door replacement Irving TX, Irving windows, window installation Irving, energy efficient windows Irving',
 }
 
