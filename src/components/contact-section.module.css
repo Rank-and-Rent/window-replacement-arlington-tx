@@ -7,7 +7,7 @@
 .background {
   position: absolute;
   inset: 0;
-  background-image: url('https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=2070');
+  background-image: url('/windows/bay-bow-windows-arlington-tx.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -85,7 +85,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  color: var(--color-gray-400);
+  color: var(--color-white);
 }
 
 .contactValue {
@@ -107,17 +107,19 @@ a.contactValue:hover {
 }
 
 .form {
-  background: var(--color-white);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 4px;
   padding: 2.5rem;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
 }
 
 .formTitle {
   font-family: var(--font-display);
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--color-primary);
+  color: var(--color-white);
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -138,7 +140,7 @@ a.contactValue:hover {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--color-gray-600);
+  color: var(--color-white);
   margin-bottom: 0.5rem;
 }
 
@@ -149,9 +151,9 @@ a.contactValue:hover {
   padding: 0.875rem 1rem;
   font-family: var(--font-body);
   font-size: 1rem;
-  color: var(--color-primary);
-  background: var(--color-gray-100);
-  border: 1px solid transparent;
+  color: var(--color-white);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 2px;
   transition: all var(--transition-fast);
 }
@@ -161,7 +163,12 @@ a.contactValue:hover {
 .formTextarea:focus {
   outline: none;
   border-color: var(--color-accent);
-  background: var(--color-white);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.formInput::placeholder,
+.formTextarea::placeholder {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .formTextarea {
@@ -202,7 +209,7 @@ a.contactValue:hover {
 
 .formDisclaimer {
   font-size: 0.75rem;
-  color: var(--color-gray-500);
+  color: rgba(255, 255, 255, 0.7);
   text-align: center;
   margin-top: 1.25rem;
   line-height: 1.5;

@@ -6,9 +6,7 @@ import styles from './about-section.module.css'
 
 const stats = [
   { number: '25+', label: 'Years Serving Arlington' },
-  { number: '5,000+', label: 'Windows Installed' },
-  { number: '98%', label: 'Customer Satisfaction' },
-  { number: '3', label: 'Premium Brand Partners' },
+  { number: '4', label: 'Premium Brand Partners' },
 ]
 
 export default function AboutSection() {

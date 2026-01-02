@@ -139,7 +139,7 @@ export default function Footer() {
 
         <div className={styles.bottomSection}>
           <p className={styles.disclosure}>
-            Disclosure: This site routes inquiries to our chosen fulfillment partner for window and door contractor matching and project coordination support.
+            We partner with trusted fulfillment experts to match you with qualified window and door contractors and provide comprehensive project coordination services.
           </p>
           <p className={styles.copyright}>
             &copy; {currentYear} Home Window Replacement Service of Arlington. All rights reserved.

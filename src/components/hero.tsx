@@ -27,9 +27,9 @@ export default function Hero() {
           </h1>
           
           <p className={styles.description}>
-            Experience the perfect combination of beauty, energy efficiency, and lasting 
-            durability with our expert window replacement services. Authorized dealer for 
-            Andersen, Pella, and JELD-WEN—three of America&apos;s most trusted window brands.
+            Experience the perfect combination of beauty, energy efficiency, and lasting
+            durability with our expert window replacement services in Arlington, TX. We carry all four of
+            America&apos;s most trusted window brands: Andersen, Pella, JELD-WEN, and Marvin.
           </p>
           
           <div className={styles.actions}>
@@ -41,22 +41,6 @@ export default function Hero() {
             </Link>
           </div>
           
-          <div className={styles.trust}>
-            <div className={styles.trustItem}>
-              <span className={styles.trustNumber}>25+</span>
-              <span className={styles.trustLabel}>Years Experience</span>
-            </div>
-            <div className={styles.trustDivider}></div>
-            <div className={styles.trustItem}>
-              <span className={styles.trustNumber}>5,000+</span>
-              <span className={styles.trustLabel}>Windows Installed</span>
-            </div>
-            <div className={styles.trustDivider}></div>
-            <div className={styles.trustItem}>
-              <span className={styles.trustNumber}>100%</span>
-              <span className={styles.trustLabel}>Satisfaction</span>
-            </div>
-          </div>
         </motion.div>
       </div>
       

@@ -73,7 +73,7 @@ export default function HomePage() {
             priceRange: '$$',
             currenciesAccepted: 'USD',
             paymentAccepted: 'Cash, Credit Card, Financing',
-            description: 'Arlington\'s premier window replacement service. Authorized dealer for Andersen, Pella, JELD-WEN, and Marvin windows. Expert installation of double-hung, casement, bay, bow, and specialty windows. Free estimates.',
+            description: 'Arlington\'s premier window replacement service. We carry Andersen, Pella, JELD-WEN, and Marvin windows. Expert installation of double-hung, casement, bay, bow, and specialty windows. Free estimates.',
             slogan: 'Premium Window Replacement for Arlington Homes',
             foundingDate: '2010',
             numberOfEmployees: {

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     default: 'Home Window Replacement Service of Arlington | Premium Window Installation',
     template: '%s | Home Window Replacement Arlington',
   },
-  description: 'Arlington\'s trusted window replacement experts. Authorized dealer for Andersen, Pella, and JELD-WEN windows. Double-hung, casement, bay, bow, and specialty windows. Free estimates. Call 817-592-8870.',
+  description: 'Arlington\'s trusted window replacement experts. We carry Andersen, Pella, JELD-WEN, and Marvin windows. Double-hung, casement, bay, bow, and specialty windows. Free estimates. Call 817-592-8870.',
   keywords: [
     'window replacement Arlington TX',
     'Andersen windows Arlington',
@@ -53,8 +53,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Home Window Replacement Service of Arlington',
-    description: 'Premium window replacement services in Arlington, TX. Authorized dealer for Andersen, Pella, and JELD-WEN windows. Expert installation with lifetime warranty.',
+    title: 'Best Window Replacement in Arlington, TX',
+    description: 'Premium window replacement services in Arlington, TX. We carry Andersen, Pella, JELD-WEN, and Marvin windows. Expert installation with lifetime warranty.',
     url: 'https://homewindowreplacementarlington.com',
     siteName: 'Home Window Replacement Arlington',
     locale: 'en_US',

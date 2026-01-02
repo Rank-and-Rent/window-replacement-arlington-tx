@@ -30,7 +30,7 @@
   font-family: var(--font-display);
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 500;
-  color: var(--color-primary);
+  color: var(--color-white);
   margin-bottom: 1.25rem;
   line-height: 1.2;
 }
