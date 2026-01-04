@@ -1,21 +1,6 @@
 import type { Metadata } from 'next'
-import { Cormorant_Garamond, Outfit } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/react'
 import './globals.css'
-
-const cormorant = Cormorant_Garamond({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-cormorant',
-  display: 'swap',
-})
-
-const outfit = Outfit({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
-  variable: '--font-outfit',
-  display: 'swap',
-})
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://homewindowreplacementarlington.com'),
@@ -88,7 +73,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${outfit.variable}`}>
+    <html lang="en">
       <head>
         <link rel="icon" href="/favicon/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon/favicon-16x16.png" sizes="16x16" type="image/png" />

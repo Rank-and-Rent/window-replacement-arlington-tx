@@ -18,8 +18,7 @@ export default function Footer() {
               <span className={styles.logoSub}>of Arlington</span>
             </Link>
             <p className={styles.brandDescription}>
-              Arlington&apos;s trusted window and door replacement experts. Authorized dealer for 
-              Andersen, Pella, JELD-WEN, and Marvin. Quality installations backed by 
+              Arlington&apos;s trusted window and door replacement experts. Andersen, Pella, JELD-WEN, and Marvin. Quality installations backed by
               industry-leading warranties.
             </p>
             <div className={styles.contactBlock}>

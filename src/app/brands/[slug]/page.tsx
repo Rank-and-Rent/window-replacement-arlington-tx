@@ -1,6 +1,3 @@
-'use client'
-
-import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
@@ -16,7 +13,19 @@ export default function BrandPage({ params }: BrandPageProps) {
   const brand = brandsData.find((b) => b.slug === params.slug)
 
   if (!brand) {
-    notFound()
+    return (
+      <>
+        <Header />
+        <div className={styles.page}>
+          <div className={styles.container}>
+            <h1>Brand Not Found</h1>
+            <p>The brand you&apos;re looking for doesn&apos;t exist.</p>
+            <Link href="/">Return to Home</Link>
+          </div>
+        </div>
+        <Footer />
+      </>
+    )
   }
 
   const faqs = [
@@ -34,7 +43,7 @@ export default function BrandPage({ params }: BrandPageProps) {
     },
     {
       question: `Are ${brand.name} windows energy efficient enough for Arlington summers?`,
-      answer: `Yes, ${brand.name} offers numerous high-performance window options specifically designed for hot climates like Arlington, TX. Features like Low-E glass coatings, argon gas fills, advanced weatherstripping, and multi-pane construction significantly reduce heat transfer and UV radiation. Many ${brand.name} products exceed ENERGY STAR requirements and can substantially lower your cooling costs throughout Arlington\'s long, hot summers.`,
+      answer: `Yes, ${brand.name} offers numerous high-performance window options specifically designed for hot climates like Arlington, TX. Features like Low-E glass coatings, argon gas fills, advanced weatherstripping, and multi-pane construction significantly reduce heat transfer and UV radiation. Many ${brand.name} products exceed ENERGY STAR requirements and can substantially lower your cooling costs throughout Arlington&apos;s long, hot summers.`,
     },
   ]
 
@@ -81,38 +90,18 @@ export default function BrandPage({ params }: BrandPageProps) {
           </div>
         </section>
 
-        {/* Prominent Brand Logos */}
+        {/* Prominent Brand Logo */}
         <section className="py-16 lg:py-20 bg-gray-50">
           <div className="px-6 lg:px-12">
-            <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-12 max-w-6xl mx-auto">
-              <Link href="/brands/andersen-windows-doors" className="hover:opacity-80 transition-opacity">
+            <div className="flex items-center justify-center max-w-6xl mx-auto">
+              <div className="text-center">
                 <img
-                  src="/andersen-windows-and-doors-logo.png"
-                  alt="Andersen Windows & Doors"
-                  className="h-16 lg:h-20 w-auto"
+                  src={brand.logo}
+                  alt={brand.name}
+                  className="h-20 lg:h-24 w-auto mx-auto mb-4"
                 />
-              </Link>
-              <Link href="/brands/pella-windows-doors" className="hover:opacity-80 transition-opacity">
-                <img
-                  src="/Pella-Corp-Windows-Doors-Logo-2x1-1.png"
-                  alt="Pella Windows & Doors"
-                  className="h-16 lg:h-20 w-auto"
-                />
-              </Link>
-              <Link href="/brands/jeld-wen-windows-doors" className="hover:opacity-80 transition-opacity">
-                <img
-                  src="/jeld-wen-windows-and-doors-logo.png"
-                  alt="Jeld-Wen Windows & Doors"
-                  className="h-16 lg:h-20 w-auto"
-                />
-              </Link>
-              <Link href="/brands/marvin-windows-doors" className="hover:opacity-80 transition-opacity">
-                <img
-                  src="/Marvin-LOCKUP-CMYK-898x301.png"
-                  alt="Marvin Windows & Doors"
-                  className="h-16 lg:h-20 w-auto"
-                />
-              </Link>
+                <h2 className="text-xl lg:text-2xl font-serif text-gray-800">Authorized {brand.name.split(' ')[0]} Dealer</h2>
+              </div>
             </div>
           </div>
         </section>

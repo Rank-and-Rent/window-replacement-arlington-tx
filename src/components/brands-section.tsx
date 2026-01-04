@@ -75,28 +75,28 @@ export default function BrandsSection() {
           <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-12 max-w-6xl mx-auto">
             <Link href="/brands/andersen-windows-doors" className="hover:opacity-80 transition-opacity">
               <img
-                src="/andersen-windows-and-doors-logo.png"
+                src="/andersen-windows-and-doors-arlington-tx-logo.png"
                 alt="Andersen Windows & Doors"
                 className="h-16 lg:h-20 w-auto"
               />
             </Link>
             <Link href="/brands/pella-windows-doors" className="hover:opacity-80 transition-opacity">
               <img
-                src="/Pella-Corp-Windows-Doors-Logo-2x1-1.png"
+                src="/pella-windows-and-doors-arlington-tx-logo.png"
                 alt="Pella Windows & Doors"
                 className="h-16 lg:h-20 w-auto"
               />
             </Link>
             <Link href="/brands/jeld-wen-windows-doors" className="hover:opacity-80 transition-opacity">
               <img
-                src="/jeld-wen-windows-and-doors-logo.png"
+                src="/jeld-wen-windows-and-doors-arlington-tx-logo.png"
                 alt="Jeld-Wen Windows & Doors"
                 className="h-16 lg:h-20 w-auto"
               />
             </Link>
             <Link href="/brands/marvin-windows-doors" className="hover:opacity-80 transition-opacity">
               <img
-                src="/Marvin-LOCKUP-CMYK-898x301.png"
+                src="/marvin-windows-and-doors-arlington-tx-logo.png"
                 alt="Marvin Windows & Doors"
                 className="h-16 lg:h-20 w-auto"
               />
