@@ -71,6 +71,18 @@
   color: var(--color-accent);
 }
 
+.email {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-accent);
+  transition: color var(--transition-fast);
+}
+
+.email:hover {
+  color: var(--color-accent-light);
+}
+
 .address {
   font-size: 0.9375rem;
   font-style: normal;

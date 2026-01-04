@@ -25,6 +25,9 @@ export default function Footer() {
               <a href="tel:817-592-8870" className={styles.phone}>
                 817-592-8870
               </a>
+              <a href="mailto:contact@homewindowreplacementarlington.com" className={styles.email}>
+                contact@homewindowreplacementarlington.com
+              </a>
               <address className={styles.address}>
                 1250 E Copeland Rd #530<br />
                 Arlington, TX 76011

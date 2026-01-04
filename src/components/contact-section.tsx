@@ -37,6 +37,12 @@ export default function ContactSection() {
                   817-592-8870
                 </a>
               </div>
+              <div className={styles.contactItem}>
+                <span className={styles.contactLabel}>Email Us</span>
+                <a href="mailto:contact@homewindowreplacementarlington.com" className={styles.contactValue}>
+                  contact@homewindowreplacementarlington.com
+                </a>
+              </div>
             </div>
           </motion.div>
 
