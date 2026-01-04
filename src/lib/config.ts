@@ -1,0 +1,10 @@
+export const PRIMARY_CITY = "Arlington";
+export const PRIMARY_STATE_ABBR = "TX";
+export const PRIMARY_STATE_FULL = "Texas";
+export const COMPANY_NAME = "Window Replacements of Arlington";
+export const PHONE = "817-592-8870";
+export const PHONE_DIGITS = "18175928870";
+export const EMAIL = "hello@windowreplacementarlingtontx.com";
+export const ADDRESS = "Arlington, TX";
+export const CANONICAL_URL = "https://www.windowreplacementarlingtontx.com/";
+export const BUSINESS_HOURS = "Open 24/7";
