@@ -4,15 +4,8 @@
 }
 
 .breadcrumbs {
-  background: var(--color-gray-100);
-  padding: 1rem 0;
+  margin-bottom: 2rem;
   font-size: 0.875rem;
-}
-
-.breadcrumbs .container {
-  max-width: var(--container-max);
-  margin: 0 auto;
-  padding: 0 var(--container-padding);
 }
 
 .breadcrumbs ol {
@@ -34,12 +27,19 @@
 }
 
 .breadcrumbs a {
-  color: var(--color-accent);
+  color: var(--color-white);
   text-decoration: none;
+  opacity: 0.9;
 }
 
 .breadcrumbs a:hover {
   text-decoration: underline;
+  opacity: 1;
+}
+
+.breadcrumbs li {
+  color: var(--color-white);
+  opacity: 0.8;
 }
 
 .hero {
@@ -100,6 +100,69 @@
 .heroSubtitle {
   font-size: 1.25rem;
   opacity: 0.95;
+}
+
+.brandLogoSection {
+  background: linear-gradient(135deg, var(--color-gray-50) 0%, var(--color-gray-100) 100%);
+  padding: 4rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.logoShowcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.logoCard {
+  background: var(--color-white);
+  border-radius: 16px;
+  padding: 2.5rem;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all var(--transition-fast);
+}
+
+.logoCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.12);
+}
+
+.logoImage {
+  margin-bottom: 1.5rem;
+}
+
+.logoImage img {
+  height: 60px;
+  width: auto;
+  max-width: 180px;
+  object-fit: contain;
+  filter: brightness(0.9);
+  transition: filter var(--transition-fast);
+}
+
+.logoCard:hover .logoImage img {
+  filter: brightness(1);
+}
+
+.logoTitle {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.01em;
+}
+
+.logoDescription {
+  font-size: 0.95rem;
+  color: var(--color-gray-600);
+  line-height: 1.6;
+  margin: 0;
 }
 
 .content {
@@ -343,7 +406,43 @@
   background: rgba(255, 255, 255, 0.1);
 }
 
+@media (max-width: 1024px) {
+  .logoCard {
+    padding: 2rem;
+  }
+
+  .logoImage img {
+    height: 50px;
+    max-width: 150px;
+  }
+
+  .logoTitle {
+    font-size: 1.375rem;
+  }
+}
+
 @media (max-width: 768px) {
+  .brandLogoSection {
+    padding: 3rem 0;
+  }
+
+  .logoCard {
+    padding: 1.75rem;
+  }
+
+  .logoImage img {
+    height: 45px;
+    max-width: 130px;
+  }
+
+  .logoTitle {
+    font-size: 1.25rem;
+  }
+
+  .logoDescription {
+    font-size: 0.9rem;
+  }
+
   .heroContent {
     grid-template-columns: 1fr;
     gap: 2rem;

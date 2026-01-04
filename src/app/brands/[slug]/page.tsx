@@ -58,20 +58,17 @@ export default function BrandPage({ params }: BrandPageProps) {
     <>
       <Header />
       <div className={styles.page}>
-        {/* Breadcrumbs */}
-        <nav className={styles.breadcrumbs} aria-label="Breadcrumb">
-          <div className={styles.container}>
-            <ol>
-              <li><Link href="/">Home</Link></li>
-              <li><Link href="/#brands">Brands</Link></li>
-              <li aria-current="page">{brand.name}</li>
-            </ol>
-          </div>
-        </nav>
-
         {/* Hero Section */}
         <section className={styles.hero}>
           <div className={styles.container}>
+            {/* Breadcrumbs */}
+            <nav className={styles.breadcrumbs} aria-label="Breadcrumb">
+              <ol>
+                <li><Link href="/">Home</Link></li>
+                <li><Link href="/#brands">Brands</Link></li>
+                <li aria-current="page">{brand.name}</li>
+              </ol>
+            </nav>
             <div className={styles.heroContent}>
               <div className={styles.heroText}>
                 <h1>{brand.name}</h1>
@@ -91,16 +88,20 @@ export default function BrandPage({ params }: BrandPageProps) {
         </section>
 
         {/* Prominent Brand Logo */}
-        <section className="py-16 lg:py-20 bg-gray-50">
-          <div className="px-6 lg:px-12">
-            <div className="flex items-center justify-center max-w-6xl mx-auto">
-              <div className="text-center">
-                <img
-                  src={brand.logo}
-                  alt={brand.name}
-                  className="h-20 lg:h-24 w-auto mx-auto mb-4"
-                />
-                <h2 className="text-xl lg:text-2xl font-serif text-gray-800">Authorized {brand.name.split(' ')[0]} Dealer</h2>
+        <section className={styles.brandLogoSection}>
+          <div className={styles.container}>
+            <div className={styles.logoShowcase}>
+              <div className={styles.logoCard}>
+                <div className={styles.logoImage}>
+                  <img
+                    src={brand.logo}
+                    alt={brand.name}
+                  />
+                </div>
+                <h2 className={styles.logoTitle}>Authorized {brand.name.split(' ')[0]} Dealer</h2>
+                <p className={styles.logoDescription}>
+                  Professional installation and service in Arlington, TX
+                </p>
               </div>
             </div>
           </div>
