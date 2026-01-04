@@ -98,7 +98,7 @@ export default function BrandPage({ params }: BrandPageProps) {
                     alt={brand.name}
                   />
                 </div>
-                <h2 className={styles.logoTitle}>Authorized {brand.name.split(' ')[0]} Dealer</h2>
+                <h2 className={styles.logoTitle}>{brand.name} Premium Partner</h2>
                 <p className={styles.logoDescription}>
                   Professional installation and service in Arlington, TX
                 </p>
