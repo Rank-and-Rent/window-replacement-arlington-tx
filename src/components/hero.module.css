@@ -46,7 +46,58 @@
   width: 100%;
 }
 
+.heroContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  max-width: 1200px;
+}
+
+.brandLogos {
+  flex-shrink: 0;
+  width: 200px;
+}
+
+.logosGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.logoLink {
+  display: block;
+  transition: opacity var(--transition-fast);
+}
+
+.logoLink:hover {
+  opacity: 0.8;
+}
+
+.logoWrapper {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform var(--transition-fast);
+}
+
+.logoWrapper:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
 .textContent {
+  flex: 1;
   max-width: 800px;
 }
 
@@ -202,6 +253,36 @@
     padding-top: 9rem;
   }
 
+  .heroContainer {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .brandLogos {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .logosGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-items: center;
+  }
+
+  .logoWrapper {
+    padding: 0.75rem;
+  }
+
+  .logo {
+    height: 35px;
+  }
+
+  .textContent {
+    text-align: center;
+    max-width: 100%;
+  }
+
   .description {
     font-size: 1rem;
   }
@@ -231,6 +312,28 @@
 
   .scrollIndicator {
     display: none;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .heroContainer {
+    gap: 2rem;
+  }
+
+  .brandLogos {
+    width: 160px;
+  }
+
+  .logosGrid {
+    gap: 1rem;
+  }
+
+  .logoWrapper {
+    padding: 0.75rem;
+  }
+
+  .logo {
+    height: 35px;
   }
 }
 
