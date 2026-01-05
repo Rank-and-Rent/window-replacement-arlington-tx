@@ -78,7 +78,7 @@ export default function BayBowWindowsPage() {
     faq: [
       {
         question: 'How much does a bay or bow window cost?',
-        answer: 'Bay and bow windows typically range from $2,500-$6,000 installed, depending on size, configuration, frame material, and glass options. Custom configurations may cost more. The investment includes the window assembly, structural support, roofing, and interior/exterior finishing.',
+        answer: 'Bay and bow windows with installation typically range from $2,500-$6,000, depending on size, configuration, frame material, and glass options. Everything is priced including installation. Pricing starts at around $850 for small vinyl windows and goes up to $3500 per window depending on frame material, like wood clad windows. We do not sell windows without installation.',
       },
       {
         question: 'Can bay or bow windows be added to any home?',

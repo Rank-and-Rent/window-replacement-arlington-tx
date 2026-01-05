@@ -70,9 +70,10 @@ export default function Header() {
     setMobileActiveDropdown(null)
   }
 
-  // Split services into windows and doors
+  // Split services into windows, doors, and materials
   const windowServices = servicesData.filter(s => s.category === 'Windows')
   const doorServices = servicesData.filter(s => s.category === 'Doors')
+  const materialServices = servicesData.filter(s => s.category === 'Materials')
   
   // Top 8 locations for dropdown (main city first, then most populous)
   const topLocations = locationsData.slice(0, 8)
@@ -132,6 +133,50 @@ export default function Header() {
                     onClick={() => setActiveDropdown(null)}
                   >
                     View All Windows
+                  </Link>
+                </div>
+              )}
+            </div>
+
+            {/* Materials Dropdown */}
+            <div
+              className={styles.dropdown}
+              onMouseEnter={() => handleMouseEnter('materials')}
+              onMouseLeave={handleMouseLeave}
+            >
+              <button
+                className={styles.navLink}
+                onKeyDown={(e) => handleKeyDown(e, 'materials')}
+                aria-expanded={activeDropdown === 'materials'}
+                aria-haspopup="true"
+              >
+                Materials
+                <svg className={styles.dropdownArrow} viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+                  <path d="M7 10l5 5 5-5z"/>
+                </svg>
+              </button>
+              {activeDropdown === 'materials' && (
+                <div
+                  className={styles.dropdownMenu}
+                  onMouseEnter={handleDropdownMouseEnter}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  {materialServices.map((service) => (
+                    <Link
+                      key={service.slug}
+                      href={service.route}
+                      className={styles.dropdownItem}
+                      onClick={() => setActiveDropdown(null)}
+                    >
+                      {service.name}
+                    </Link>
+                  ))}
+                  <Link
+                    href="/windows"
+                    className={`${styles.dropdownItem} ${styles.viewAll}`}
+                    onClick={() => setActiveDropdown(null)}
+                  >
+                    View All Materials
                   </Link>
                 </div>
               )}
@@ -361,6 +406,39 @@ export default function Header() {
                 onClick={closeMobileMenu}
               >
                 View All Windows
+              </Link>
+            </div>
+          </div>
+
+          {/* Materials Accordion */}
+          <div className={styles.mobileDropdown}>
+            <button
+              className={`${styles.mobileDropdownToggle} ${mobileActiveDropdown === 'materials' ? styles.mobileDropdownToggleActive : ''}`}
+              onClick={() => toggleMobileDropdown('materials')}
+              aria-expanded={mobileActiveDropdown === 'materials'}
+            >
+              Materials
+              <svg className={styles.mobileDropdownArrow} viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M7 10l5 5 5-5z"/>
+              </svg>
+            </button>
+            <div className={`${styles.mobileDropdownContent} ${mobileActiveDropdown === 'materials' ? styles.mobileDropdownContentOpen : ''}`}>
+              {materialServices.map((service) => (
+                <Link
+                  key={service.slug}
+                  href={service.route}
+                  className={styles.mobileDropdownItem}
+                  onClick={closeMobileMenu}
+                >
+                  {service.name}
+                </Link>
+              ))}
+              <Link
+                href="/windows"
+                className={`${styles.mobileDropdownItem} ${styles.mobileViewAll}`}
+                onClick={closeMobileMenu}
+              >
+                View All Materials
               </Link>
             </div>
           </div>

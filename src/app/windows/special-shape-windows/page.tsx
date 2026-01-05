@@ -78,7 +78,7 @@ export default function SpecialShapeWindowsPage() {
     faq: [
       {
         question: 'How much do special shape windows cost?',
-        answer: 'Specialty windows typically cost 25-100% more than comparable rectangular windows due to custom fabrication requirements. Simple arched transoms might add $300-500, while complex custom shapes could cost $1,500-3,000 or more depending on size, material, and complexity.',
+        answer: 'Specialty windows with installation typically cost 25-100% more than comparable rectangular windows due to custom fabrication requirements. Everything is priced including installation. Pricing starts at around $850 for small vinyl windows and goes up to $3500 per window depending on frame material, like wood clad windows. We do not sell windows without installation.',
       },
       {
         question: 'Can special shape windows be energy efficient?',

@@ -90,7 +90,7 @@ export default function SingleHungWindowsPage() {
       },
       {
         question: 'How much money can I save by choosing single-hung over double-hung?',
-        answer: 'Single-hung windows typically cost 10-20% less than comparable double-hung models. For a whole-house replacement project of 15 windows, this could mean savings of $1,500-$3,000 or more, depending on the specific models and features selected.',
+        answer: 'Single-hung windows typically cost 10-20% less than comparable double-hung models with installation. Everything is priced including installation. Pricing starts at around $850 for small vinyl windows and goes up to $3500 per window depending on frame material. We do not sell windows without installation.',
       },
     ],
   }

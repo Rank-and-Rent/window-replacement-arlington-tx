@@ -1,6 +1,7 @@
 import Header from '@/components/header'
 import Hero from '@/components/hero'
 import WindowsSection from '@/components/windows-section'
+import MaterialsSection from '@/components/materials-section'
 import DoorsSection from '@/components/doors-section'
 import BrandsSection from '@/components/brands-section'
 import FeaturesSection from '@/components/features-section'
@@ -17,6 +18,7 @@ export default function HomePage() {
       <main>
         <Hero />
         <WindowsSection />
+        <MaterialsSection />
         <DoorsSection />
         <BrandsSection />
         <FeaturesSection />
