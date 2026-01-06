@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: 'Wood Windows Replacement Arlington TX | Authentic Natural Beauty',
   description: 'Premium solid wood replacement windows in Arlington, TX. Timeless natural beauty, superior craftsmanship, and authentic character. Everything priced including installation.',
   keywords: 'wood windows Arlington TX, solid wood windows, traditional wood windows, authentic wood windows, custom wood windows',
+  alternates: {
+    canonical: 'https://homewindowreplacementarlington.com/windows/wood-windows',
+  },
 }
 
 export default function WoodWindowsPage() {

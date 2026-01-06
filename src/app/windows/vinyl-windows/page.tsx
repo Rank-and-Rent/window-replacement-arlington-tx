@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: 'Vinyl Windows Replacement Arlington TX | Low Maintenance, Energy Efficient',
   description: 'Premium vinyl replacement windows in Arlington, TX. Low-maintenance, energy-efficient, and durable. Andersen, Pella & JELD-WEN vinyl options. Everything priced including installation. Call 817-592-8870.',
   keywords: 'vinyl windows Arlington TX, vinyl replacement windows, low maintenance windows, energy efficient vinyl windows, Andersen vinyl windows, Pella vinyl windows, JELD-WEN vinyl windows',
+  alternates: {
+    canonical: 'https://homewindowreplacementarlington.com/windows/vinyl-windows',
+  },
 }
 
 export default function VinylWindowsPage() {

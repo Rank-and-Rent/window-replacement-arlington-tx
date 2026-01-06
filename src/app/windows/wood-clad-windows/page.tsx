@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: 'Wood Clad Windows Replacement Arlington TX | Traditional Beauty, Modern Protection',
   description: 'Premium wood clad replacement windows in Arlington, TX. Real wood interior beauty with durable exterior protection. Everything priced including installation.',
   keywords: 'wood clad windows Arlington TX, wood clad replacement windows, traditional windows, Andersen wood clad windows, Pella wood clad windows',
+  alternates: {
+    canonical: 'https://homewindowreplacementarlington.com/windows/wood-clad-windows',
+  },
 }
 
 export default function WoodCladWindowsPage() {

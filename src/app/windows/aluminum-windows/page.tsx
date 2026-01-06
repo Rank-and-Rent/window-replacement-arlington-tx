@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: 'Aluminum Windows Replacement Arlington TX | Durable, Modern Design',
   description: 'High-quality aluminum replacement windows in Arlington, TX. Durable, sleek, and energy-efficient. Andersen, Pella & JELD-WEN aluminum options. Everything priced including installation. Call 817-592-8870.',
   keywords: 'aluminum windows Arlington TX, aluminum replacement windows, durable windows, modern aluminum windows, Andersen aluminum windows, Pella aluminum windows, JELD-WEN aluminum windows',
+  alternates: {
+    canonical: 'https://homewindowreplacementarlington.com/windows/aluminum-windows',
+  },
 }
 
 export default function AluminumWindowsPage() {

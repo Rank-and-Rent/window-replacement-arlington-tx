@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: 'Fibrex Windows Replacement Arlington TX | Andersen Premium Composite',
   description: 'Andersen Fibrex composite replacement windows in Arlington, TX. Premium performance with wood-like beauty. Energy-efficient and durable. Everything priced including installation. Call 817-592-8870.',
   keywords: 'Fibrex windows Arlington TX, Andersen Fibrex windows, composite windows, premium replacement windows, energy efficient Fibrex windows, durable composite windows',
+  alternates: {
+    canonical: 'https://homewindowreplacementarlington.com/windows/fibrex-windows',
+  },
 }
 
 export default function FibrexWindowsPage() {

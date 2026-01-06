@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: 'Fiberglass Windows Replacement Arlington TX | Ultimate Strength & Insulation',
   description: 'Premium fiberglass replacement windows in Arlington, TX. Maximum strength, superior insulation, and authentic wood appearance. Everything priced including installation.',
   keywords: 'fiberglass windows Arlington TX, fiberglass replacement windows, strong windows, insulated fiberglass windows',
+  alternates: {
+    canonical: 'https://homewindowreplacementarlington.com/windows/fiberglass-windows',
+  },
 }
 
 export default function FiberglassWindowsPage() {
