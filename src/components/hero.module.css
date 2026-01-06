@@ -2,9 +2,10 @@
   position: relative;
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   overflow: hidden;
+  padding-top: 120px !important;
 }
 
 .background {
@@ -39,11 +40,12 @@
 
 .content {
   position: relative;
-  z-index: 10;
+  z-index: 1100;
   max-width: var(--container-max);
   margin: 0 auto;
-  padding: 10rem var(--container-padding) 4rem;
+  padding: 3rem var(--container-padding) 4rem;
   width: 100%;
+  margin-top: 0 !important;
 }
 
 .heroContainer {
@@ -249,8 +251,12 @@
 }
 
 @media (max-width: 768px) {
+  .hero {
+    padding-top: 80px;
+  }
+  
   .content {
-    padding-top: 9rem;
+    padding-top: 2rem;
   }
 
   .heroContainer {

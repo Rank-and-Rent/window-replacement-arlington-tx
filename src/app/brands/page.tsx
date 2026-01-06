@@ -8,6 +8,10 @@ import ContactSection from '@/components/contact-section'
 import BrandsSection from '@/components/brands-section'
 import { brandsData } from '@/data/index'
 import styles from './brands.module.css'
+import type { Metadata } from 'next'
+
+// Note: Since this is a client component, metadata is handled in layout.tsx
+// Canonical URL is set in the root layout
 
 export default function BrandsPage() {
   return (

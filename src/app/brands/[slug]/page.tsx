@@ -4,9 +4,26 @@ import Footer from '@/components/footer'
 import ContactSection from '@/components/contact-section'
 import { brandsData } from '@/data'
 import styles from '../brand.module.css'
+import type { Metadata } from 'next'
 
 interface BrandPageProps {
   params: { slug: string }
+}
+
+export async function generateMetadata({ params }: BrandPageProps): Promise<Metadata> {
+  const brand = brandsData.find((b) => b.slug === params.slug)
+  
+  if (!brand) {
+    return {
+      title: 'Brand Not Found',
+    }
+  }
+
+  return {
+    alternates: {
+      canonical: `https://homewindowreplacementarlington.com${brand.route}`,
+    },
+  }
 }
 
 export default function BrandPage({ params }: BrandPageProps) {

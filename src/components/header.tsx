@@ -172,7 +172,7 @@ export default function Header() {
                     </Link>
                   ))}
                   <Link
-                    href="/windows"
+                    href="/materials"
                     className={`${styles.dropdownItem} ${styles.viewAll}`}
                     onClick={() => setActiveDropdown(null)}
                   >
@@ -317,9 +317,6 @@ export default function Header() {
             <Link href="/about" className={styles.navLink}>
               About
             </Link>
-            <Link href="/contact" className={styles.navLink}>
-              Contact
-            </Link>
           </nav>
 
           <div className={styles.headerActions}>
@@ -434,7 +431,7 @@ export default function Header() {
                 </Link>
               ))}
               <Link
-                href="/windows"
+                href="/materials"
                 className={`${styles.mobileDropdownItem} ${styles.mobileViewAll}`}
                 onClick={closeMobileMenu}
               >
@@ -545,9 +542,6 @@ export default function Header() {
           {/* Regular Links */}
           <Link href="/about" className={styles.mobileNavLink} onClick={closeMobileMenu}>
             About
-          </Link>
-          <Link href="/contact" className={styles.mobileNavLink} onClick={closeMobileMenu}>
-            Contact
           </Link>
         </div>
 

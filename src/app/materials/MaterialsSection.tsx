@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from './materials-section.module.css'
+import styles from '../../components/materials-section.module.css'
 
 const materialTypes = [
   {
@@ -71,37 +71,44 @@ export default function MaterialsSection() {
 
         <div className={styles.grid}>
           {materialTypes.map((material, index) => (
-            <motion.article
-              key={material.slug}
+            <motion.div
+              key={material.name}
               className={styles.card}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
             >
-              <Link href={material.slug} className={styles.cardLink}>
-                <div className={styles.cardImage}>
-                  <Image
-                    src={material.image}
-                    alt={`${material.name} installation in Arlington TX`}
-                    fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    style={{ objectFit: 'cover' }}
-                  />
-                  <div className={styles.cardOverlay}></div>
-                </div>
-                <div className={styles.cardContent}>
-                  <span className={styles.cardLabel}>Material Type</span>
-                  <h3 className={styles.cardTitle}>{material.name}</h3>
-                  <p className={styles.cardDescription}>{material.description}</p>
-                  <ul className={styles.features}>
-                    {material.features.map((feature) => (
-                      <li key={feature}>{feature}</li>
-                    ))}
-                  </ul>
-                </div>
-              </Link>
-            </motion.article>
+              <div className={styles.imageWrapper}>
+                <Image
+                  src={material.image}
+                  alt={`${material.name} in Arlington, TX`}
+                  fill
+                  className={styles.image}
+                />
+              </div>
+
+              <div className={styles.content}>
+                <h3 className={styles.materialName}>{material.name}</h3>
+                <p className={styles.description}>{material.description}</p>
+
+                <ul className={styles.features}>
+                  {material.features.map((feature) => (
+                    <li key={feature} className={styles.feature}>
+                      <span className={styles.checkmark}>✓</span>
+                      {feature}
+                    </li>
+                  ))}
+                </ul>
+
+                <Link href={material.slug} className={styles.link}>
+                  Learn More
+                  <svg className={styles.arrow} viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                    <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+                  </svg>
+                </Link>
+              </div>
+            </motion.div>
           ))}
         </div>
 
